@@ -41,7 +41,7 @@ ERPConnect is an intelligent decision support module designed to enhance Odoo ER
 
 ### Business Problem Solved
 
-Traditional ERP systems (Odoo...) provide basic reporting but lack:
+Traditional ERP systems (Odoo, Dolibarr) provide basic reporting but lack:
 - Predictive capabilities for demand forecasting
 - Intelligent alerts beyond simple threshold-based notifications
 - Advanced analytics for inventory optimization

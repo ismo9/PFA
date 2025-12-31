@@ -1,0 +1,104 @@
+📄 Cahier de Charge – ERPConnect
+
+(Module IA d’aide à la décision intégré à un ERP )
+
+1. Contexte du Projet
+
+ERPConnect est un module intelligent intégré à un ERP open source (Odoo), visant à automatiser l’analyse des données de gestion (ventes, achats, stocks, factures) et fournir des prévisions, recommandations et alertes intelligentes.
+
+Ce module s’inscrit dans le cadre du Projet de Fin d’Année (PFA) d’EMSI Casablanca, option MIAGE.
+
+2. Objectifs Fonctionnels
+2.1. Connectivité ERP
+
+Connexion avec Odoo via XML-RPC
+
+Extraction des données :
+
+Produits
+
+Stock
+
+Ventes
+
+Achats
+
+Factures
+
+Clients / Fournisseurs
+
+2.2. Analyse & KPI
+
+Top produits
+
+Indicateurs de rotation de stock
+
+Tendances de ventes
+
+Analyse des périodes (30/60/90 jours)
+
+Tableaux de bord consolidés
+
+2.3. IA & Prédictions
+
+Prévision de la demande (régression + séries temporelles)
+
+Détection d’anomalies (factures atypiques)
+
+Scores fournisseurs (optionnel si données disponibles)
+
+Recommandations de réapprovisionnement
+
+2.4. Système d’Alertes
+
+Stock faible
+
+Surstock
+
+Baisse de ventes
+
+Rupture potentielle
+
+Besoin de réapprovisionnement
+
+2.5. Intégration Frontend
+
+React & TypeScript
+
+Visualisation des KPI
+
+Graphiques interactifs
+
+Gestion des paramètres automatiques
+
+3. Architecture Technique
+3.1 Backend
+
+FastAPI
+
+Python
+
+Scikit-Learn
+
+Pandas / Numpy
+
+Joblib
+
+XML-RPC (connexion Odoo)
+
+3.2 ERP Source
+
+Odoo 15+ Community Edition
+
+Modules utilisés :
+
+sale
+
+invoices
+
+purchase
+
+stock
+
+inventory
+
