@@ -1,0 +1,1187 @@
+\documentclass[12pt,a4paper]{report}
+
+% ===============================
+% REQUIRED PACKAGES
+% ===============================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{array}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+% ===============================
+% HEADER & FOOTER CONFIG
+% ===============================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\fancyfoot[L]{\small ERPConnect - PFA 2025/2026}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% ===============================
+% CHAPTER TITLE FORMAT
+% ===============================
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}
+{\chaptertitlename\ \thechapter}
+{20pt}
+{\Huge}
+\titlespacing*{\chapter}{0pt}{-10pt}{40pt}
+
+% ===============================
+% DOCUMENT METADATA
+% ===============================
+\title{ERPConnect -- Intelligent Decision Support Module Integrated with ERP}
+\author{Ismail Moustatraf \& Ibrahim Hanna}
+\date{Academic Year: 2025/2026}
+
+% ===============================
+% HYPERREF CONFIG (LAST)
+% ===============================
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    pdftitle={PFA Report - ERPConnect},
+    pdfauthor={Ismail Moustatraf \& Ibrahim Hanna}
+}
+
+\begin{document}
+
+% ========================================
+% TITLE PAGE (PAGE DE GARDE)
+% ========================================
+\begin{titlepage}
+    \begin{center}
+
+        % EMSI LOGO
+        \includegraphics[width=12cm]{emsi_logo.png}\\
+        \vspace{1.5cm}
+
+        % REPORT TYPE
+        {\LARGE\textbf{FINAL YEAR PROJECT REPORT}}\\
+        \vspace{1.2cm}
+
+        % OPTIONAL COMPANY / CONTEXT (can be removed if needed)
+        \textit{\Huge ERPConnect Project}\\
+        \vspace{0.5cm}
+
+        % DOUBLE LINE TITLE BLOCK
+        \rule{15cm}{0.5mm}\\
+        \vspace{0.3cm}
+        \begin{minipage}{0.95\textwidth}
+            \centering\LARGE
+            Intelligent Decision Support Module Integrated with ERP
+        \end{minipage}\\
+        \vspace{0.3cm}
+        \rule{15cm}{0.5mm}\\
+
+        \vspace{0.8cm}
+
+        % PROGRAM INFO
+        \textbf{\large Program: }{\large Computer Science and Networks Engineering}\\
+        
+
+        \vspace{1cm}
+
+        % AUTHORS
+        \textbf{\large Realized by:}\\
+        {\large Ismail Moustatraf \& Ibrahim Hanna}\\
+
+        \vspace{1cm}
+
+        % SUPERVISORS
+        \textbf{\large Academic Supervisor:}\\
+        {\large Abderrahim Larhlimi}\\
+
+        \vspace{1cm}
+
+        % ACADEMIC YEAR
+        \textbf{Academic Year: 2025/2026}
+
+    \end{center}
+\end{titlepage}
+
+
+% ========================================
+% FRONT MATTER
+% ========================================
+\pagenumbering{roman}
+
+% ========================================
+% ACKNOWLEDGMENTS
+% ========================================
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgments}
+
+We would like to express our deepest gratitude to our academic supervisor, \textbf{Abderrahim Larhlimi}, for his invaluable guidance, support, and constructive feedback throughout the realization of this project. His expertise and encouragement have been instrumental in our professional and technical growth.
+
+We also extend our thanks to the staff of \textbf{EMSI} for providing us with the necessary academic environment and tools to develop our skills.
+
+Finally, we are grateful to our families and colleagues for their constant support and understanding during the rigorous phases of this Final Year Project.
+
+\newpage
+
+% ========================================
+% RÉSUMÉ & ABSTRACT
+% ========================================
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+
+Le projet \textbf{ERPConnect} vise à transformer les données opérationnelles des systèmes ERP (Enterprise Resource Planning) en actifs stratégiques grâce à l'intelligence artificielle. Ce rapport documente le développement d'un module d'aide à la décision conçu pour s'intégrer aux ERP open source tels qu'Odoo. La solution s'appuie sur une architecture de micro-services basée sur \textbf{FastAPI} pour fournir des fonctionnalités avancées d'analytique prédictive.
+
+Les principales contributions incluent un système de prévision de la demande basé sur l'apprentissage automatique (Polynomial Regression), un mécanisme de détection d'anomalies par score-Z, et un moteur de recommandation de réapprovisionnement optimisé par des algorithmes de gestion de stock (ROP). Une interface utilisateur en \textbf{React} permet aux décideurs de visualiser plus de 30 indicateurs de performance (KPI) et de personnaliser leurs tableaux de bord. Les résultats démontrent l'efficacité de l'approche pour réduire les ruptures de stock et valoriser le patrimoine informationnel de l'entreprise.
+
+\textbf{Mots-clés :} ERP, Intelligence Artificielle, Prévision de la demande, Apprentissage automatique, FastAPI, Aide à la décision.
+
+\newpage
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+The \textbf{ERPConnect} project aims to transform operational data from ERP (Enterprise Resource Planning) systems into strategic assets through Artificial Intelligence. This report documents the development of a decision support module designed to integrate with open-source ERPs such as Odoo. The solution relies on a \textbf{FastAPI}-based microservices architecture to provide advanced predictive analytics features.
+
+Key contributions include a machine-learning-based demand forecasting system (Polynomial Regression), a Z-score anomaly detection mechanism, and a replenishment recommendation engine optimized by inventory management algorithms (ROP). A \textbf{React} user interface allows decision-makers to visualize over 30 Key Performance Indicators (KPIs) and customize their dashboards. The results demonstrate the effectiveness of the approach in reducing stockouts and maximizing the value of the company's informational assets.
+
+\textbf{Keywords:} ERP, Artificial Intelligence, Demand Forecasting, Machine Learning, FastAPI, Decision Support.
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+% ========================================
+% MAIN CONTENT
+% ========================================
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ========================================
+% GENERAL INTRODUCTION
+% ========================================
+\chapter*{General Introduction}
+\addcontentsline{toc}{chapter}{General Introduction}
+\markboth{General Introduction}{General Introduction}
+
+% (Your introduction text remains unchanged)
+
+\newpage
+
+% ========================================
+% CHAPTER 1
+% ========================================
+\chapter{Project Framework Presentation}
+
+\section*{Chapter Objectives}
+\addcontentsline{toc}{section}{Chapter Objectives}
+
+% (Text unchanged)
+
+\section{Existing System Analysis}
+
+\subsection{Description of Existing Solutions}
+\begin{itemize}
+    \item Sales reports aggregated by period, product, or customer;
+    \item Inventory status with manually configurable alert thresholds;
+    \item Commercial performance tracking charts;
+    \item Data exports in CSV or Excel format for external analysis;
+    \item Predefined performance indicators (revenue, margin, inventory turnover).
+\end{itemize}
+
+% ========================================
+% CHAPTER 2: REQUIREMENTS SPECIFICATION
+% ========================================
+\chapter{Requirements Specification}
+
+\section*{Chapter Objectives}
+\addcontentsline{toc}{section}{Chapter Objectives}
+
+This chapter establishes a comprehensive specification of ERPConnect's requirements based on the actual implemented system. We identify all system actors, detail functional and non-functional requirements as realized in the codebase, and present use case documentation reflecting real API endpoints and workflows. This specification serves as accurate documentation of what the system does and how it performs.
+
+\section{Introduction}
+
+Requirements specification transforms business needs into precise technical specifications. For ERPConnect, this phase documents the actual capabilities implemented in our intelligent decision support module that integrates with Odoo ERP systems.
+
+Our requirements are derived from the implemented system architecture, which includes a FastAPI backend communicating with Odoo via XML-RPC, machine learning forecasting capabilities using scikit-learn, intelligent alerting mechanisms, and a comprehensive KPI dashboard. We distinguish between functional requirements (what the system does) and non-functional requirements (how well it performs).
+
+This chapter documents the real actors who interact with ERPConnect, the actual use cases implemented as REST API endpoints, and the quality attributes achieved through our technical choices.
+
+\section{Functional Requirements Specification}
+
+Functional requirements define the core capabilities that ERPConnect provides. These are organized hierarchically according to the implemented service modules.
+
+\subsection{ERP Data Integration and Synchronization}
+
+\subsubsection{Establish Odoo Connection via XML-RPC}
+The system shall establish and maintain connections to Odoo ERP systems using the XML-RPC protocol. Connection parameters include:
+\begin{itemize}
+    \item Odoo server URL
+    \item Database name
+    \item Username and password credentials
+    \item Authentication via \texttt{/xmlrpc/2/common} endpoint
+\end{itemize}
+
+\textbf{Implementation:} \texttt{OdooConnector} class in \texttt{app/services/odoo\_connector.py}
+
+\subsubsection{Extract Product Data}
+The system shall retrieve product information from Odoo including:
+\begin{itemize}
+    \item Product ID, name, and reference code
+    \item Current stock quantity (\texttt{qty\_available})
+    \item Forecasted quantity (\texttt{virtual\_available})
+    \item Unit price (\texttt{list\_price})
+\end{itemize}
+
+\textbf{Implementation:} \texttt{search\_read} on \texttt{product.product} model
+
+\subsubsection{Extract Sales Data}
+The system shall retrieve sales order lines with filtering by date range, including:
+\begin{itemize}
+    \item Product reference
+    \item Quantity ordered
+    \item Unit price
+    \item Creation date
+\end{itemize}
+
+\textbf{Implementation:} \texttt{search\_read} on \texttt{sale.order.line} model
+
+\subsubsection{Extract Inventory Movements}
+The system shall access stock movement history including receipts and deliveries from \texttt{stock.move} model.
+
+\subsection{Demand Prediction}
+
+\subsubsection{Calculate 30-Day Demand Forecast}
+The system shall predict 30-day demand for each product using the following methodology:
+\begin{enumerate}
+    \item Fetch sales order lines for configurable lookback period (default: 60 days)
+    \item Aggregate daily sales quantities
+    \item Apply 7-day moving average smoothing to reduce noise
+    \item Multiply current daily demand by 30 to obtain forecast
+\end{enumerate}
+
+\textbf{Algorithm:} Moving average smoothing\\
+\textbf{Implementation:} \texttt{predict\_demand()} in \texttt{app/services/ai/demand.py}\\
+\textbf{Endpoint:} \texttt{GET /ai/demand?lookback\_days=60\&limit=200}
+
+\subsubsection{Detect Demand Trends}
+The system shall classify demand trends as UP, DOWN, or STABLE by calculating the slope between early and late smoothed time windows:
+\begin{itemize}
+    \item Trend = UP if slope \textgreater 0.2
+    \item Trend = DOWN if slope \textless -0.2
+    \item Trend = STABLE otherwise
+\end{itemize}
+
+\subsubsection{Calculate Confidence Scores}
+The system shall compute confidence scores (0.0 to 1.0) based on:
+\begin{itemize}
+    \item Data coverage (days of historical data available)
+    \item Demand variability (coefficient of variation)
+    \item Sample count (number of sales transactions)
+\end{itemize}
+
+\textbf{Formula:} $confidence = 0.4 \times coverage + 0.3 \times (1 - variability) + 0.3 \times sample\_boost$
+
+\subsection{Machine Learning Forecasting}
+
+\subsubsection{Train Linear Regression Models}
+The system shall train product-specific forecast models using:
+\begin{itemize}
+    \item \textbf{Algorithm:} scikit-learn LinearRegression
+    \item \textbf{Feature Engineering:} PolynomialFeatures with degree=2
+    \item \textbf{Training Data:} Smoothed daily sales (7-day moving average)
+    \item \textbf{Lookback Period:} Configurable (default: 180 days, minimum: 14 days)
+\end{itemize}
+
+\textbf{Implementation:} \texttt{train\_product\_model()} in \texttt{app/services/ai/ml\_forecast.py}\\
+\textbf{Model Persistence:} joblib serialization to \texttt{models/forecasts/product\_\{id\}.joblib}
+
+\subsubsection{Generate Multi-Horizon Forecasts}
+The system shall produce forecasts for configurable time horizons (default: 30 days) with:
+\begin{itemize}
+    \item Daily forecast array
+    \item Aggregated totals: 7-day, 30-day, 90-day
+    \item Confidence intervals (95\% level) based on residual standard deviation: $CI = \hat{y} \pm 1.96\sigma$
+\end{itemize}
+
+\textbf{Endpoint:} \texttt{GET /ai/forecast/\{product\_id\}?horizon\_days=30}
+
+\subsubsection{Compute Forecast Accuracy Metrics}
+The system shall calculate and store:
+\begin{itemize}
+    \item \textbf{MAE} (Mean Absolute Error): $\frac{1}{n}\sum|y_i - \hat{y}_i|$
+    \item \textbf{MAPE} (Mean Absolute Percentage Error): $\frac{100\%}{n}\sum\frac{|y_i - \hat{y}_i|}{y_i}$
+    \item \textbf{sMAPE} (Symmetric MAPE): $\frac{200\%}{n}\sum\frac{|y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|}$
+\end{itemize}
+
+\textbf{Note:} sMAPE is preferred as it handles zero values robustly.
+
+\subsubsection{Automated Nightly Training}
+The system shall automatically train ML models for the top 50 products (by sales volume) via APScheduler at configurable intervals (default: nightly).
+
+\textbf{Implementation:} \texttt{app/tasks/scheduler.py}
+
+\subsection{Inventory Replenishment Recommendations}
+
+\subsubsection{Calculate Reorder Point (ROP)}
+The system shall compute ROP using the formula:
+
+$$ROP = avg\_daily\_sales \times lead\_time\_days + avg\_daily\_sales \times safety\_stock\_days$$
+
+\textbf{Parameters:}
+\begin{itemize}
+    \item \texttt{default\_lead\_time\_days}: Configurable (default: 7)
+    \item \texttt{safety\_stock\_days}: Configurable (default: 3)
+\end{itemize}
+
+\subsubsection{Generate Replenishment Suggestions}
+The system shall recommend order quantities:
+
+$$suggested\_qty = \max(0, ROP - current\_stock)$$
+
+\textbf{Action Categories:}
+\begin{itemize}
+    \item \textbf{ORDER NOW}: Current stock below ROP and suggested qty \textgreater 0
+    \item \textbf{MONITOR}: Stock cover between 7-14 days
+    \item \textbf{OK}: Sufficient stock
+\end{itemize}
+
+\textbf{Endpoint:} \texttt{GET /ai/replenishment/with\_rop}\\
+\textbf{Implementation:} \texttt{app/routers/ai.py::replenishment\_with\_rop()}
+
+\subsection{Product Segmentation (ABC/XYZ Analysis)}
+
+\subsubsection{ABC Classification by Revenue}
+The system shall segment products into three categories based on revenue contribution:
+\begin{itemize}
+    \item \textbf{A-class}: Top 20\% by cumulative revenue
+    \item \textbf{B-class}: Next 30\% (20-50 percentile)
+    \item \textbf{C-class}: Remaining 50\%
+\end{itemize}
+
+\subsubsection{XYZ Classification by Variability}
+The system shall classify products by demand variability using coefficient of variation ($CV = \sigma / \mu$):
+\begin{itemize}
+    \item \textbf{X-class}: Low variability (CV \textless 0.3)
+    \item \textbf{Y-class}: Medium variability (0.3 $\leq$ CV \textless 0.7)
+    \item \textbf{Z-class}: High variability (CV $\geq$ 0.7)
+\end{itemize}
+
+\subsubsection{Generate Segmentation Matrix}
+The system shall produce a 3×3 matrix showing product counts in each ABC-XYZ segment with strategy recommendations (e.g., "Focus on AX items for tight inventory control").
+
+\textbf{Endpoint:} \texttt{GET /ai/segmentation?days=60}\\
+\textbf{Implementation:} \texttt{segment\_abc\_xyz()} in \texttt{app/services/ai/segmentation.py}
+
+\subsection{Sales Anomaly Detection}
+
+\subsubsection{Detect Statistical Anomalies}
+The system shall identify sales spikes and drops using z-score methodology:
+
+$$z = \frac{x - \mu}{\sigma}$$
+
+\begin{itemize}
+    \item Flag anomaly if $|z| \geq threshold$ (default: 3.0)
+    \item Classify as SPIKE if $z \textgreater 0$, DROP if $z \textless 0$
+\end{itemize}
+
+\subsubsection{Categorize Anomaly Severity}
+\begin{itemize}
+    \item \textbf{High}: $|z| \geq 4.0$
+    \item \textbf{Medium}: $3.0 \leq |z| \textless 4.0$
+    \item \textbf{Low}: configurable lower thresholds
+\end{itemize}
+
+\textbf{Endpoint:} \texttt{GET /ai/anomalies?days=30\&z=3.0}\\
+\textbf{Implementation:} \texttt{detect\_sales\_anomalies()} in \texttt{app/services/ai/anomalies.py}
+
+\subsection{Key Performance Indicators (KPI) System}
+
+\subsubsection{Calculate Business Metrics}
+The system shall compute 30+ KPIs across six categories:
+
+\textbf{Revenue \& Sales (5 metrics):}
+\begin{itemize}
+    \item Total Revenue, Revenue Growth \%, Gross Margin \%
+    \item Average Order Value, Revenue per Product
+\end{itemize}
+
+\textbf{Orders \& Customers (4 metrics):}
+\begin{itemize}
+    \item Total Orders, Order Growth \%
+    \item Fulfillment Rate \%, Backorder \%
+\end{itemize}
+
+\textbf{Inventory \& Stock (6 metrics):}
+\begin{itemize}
+    \item Stock Value, Turnover Ratio, Stock Cover Days
+    \item Low Stock Count, Out of Stock Count, Products Under ROP
+\end{itemize}
+
+\textbf{Products (4 metrics):}
+\begin{itemize}
+    \item Active Products, Total Products, New Products (30d), Avg Price
+\end{itemize}
+
+\textbf{AI \& Forecasting (4 metrics):}
+\begin{itemize}
+    \item Forecast Accuracy (sMAPE), Anomaly Count (7d/30d)
+    \item Products with ML Models, Last Training Date
+\end{itemize}
+
+\textbf{Efficiency (3 metrics):}
+\begin{itemize}
+    \item Avg Lead Time, Order Cycle Time, On-Time Delivery \%
+\end{itemize}
+
+\subsubsection{Provide KPI Endpoints}
+\begin{itemize}
+    \item \texttt{GET /kpi/metrics?days=30} — All KPIs with current values
+    \item \texttt{GET /kpi/metric/\{name\}?days=90} — Specific KPI with historical trend
+    \item \texttt{GET /kpi/comparison?product\_ids=101,102} — Multi-product comparison
+    \item \texttt{GET /kpi/catalog} — Full KPI catalog for dashboard builder
+\end{itemize}
+
+\textbf{Implementation:} \texttt{app/routers/kpi.py}
+
+\subsection{Dashboard Visualization}
+
+\subsubsection{Provide Overview Endpoint}
+\texttt{GET /dashboard/overview} shall return:
+\begin{itemize}
+    \item Total products, stock value, recent sales count
+    \item Current period revenue and order statistics
+\end{itemize}
+
+\subsubsection{Generate Sales Trends}
+\texttt{GET /dashboard/sales\_trends?period=daily\&days=30} shall provide time-series data aggregated by:
+\begin{itemize}
+    \item Daily, weekly, or monthly periods
+    \item Quantity sold and revenue
+\end{itemize}
+
+\subsubsection{Identify Top Products}
+\texttt{GET /dashboard/top\_products?metric=quantity\&days=30\&limit=10} shall rank products by:
+\begin{itemize}
+    \item Quantity sold
+    \item Revenue generated
+\end{itemize}
+
+\subsubsection{Summarize Stock Status}
+\texttt{GET /dashboard/stock\_status} shall categorize inventory:
+\begin{itemize}
+    \item Out of stock (qty = 0)
+    \item Low stock (qty \textless threshold)
+    \item Adequate stock
+    \item Overstocked
+\end{itemize}
+
+\subsection{Authentication and Authorization}
+
+\subsubsection{JWT Token Authentication}
+The system shall implement OAuth2 password flow with JWT tokens:
+\begin{itemize}
+    \item \texttt{POST /auth/login} — Exchange credentials for access token
+    \item Token expiration: 480 minutes (8 hours)
+    \item Algorithm: HS256
+\end{itemize}
+
+\textbf{Implementation:} python-jose library, \texttt{app/auth.py}
+
+\subsubsection{Role-Based Access Control}
+Three predefined roles with different permissions:
+\begin{itemize}
+    \item \textbf{admin}: Full access, user management, system configuration
+    \item \textbf{manager}: Dashboard viewing, forecast access, report generation
+    \item \textbf{viewer}: Read-only access to dashboards and KPIs
+\end{itemize}
+
+\textbf{Demo Users:}
+\begin{itemize}
+    \item \texttt{admin@erp.com} / \texttt{admin123}
+    \item \texttt{manager@erp.com} / \texttt{manager123}
+    \item \texttt{viewer@erp.com} / \texttt{viewer123}
+\end{itemize}
+
+\textbf{Note:} Plain passwords used for demonstration; production deployment requires bcrypt hashing.
+
+\subsubsection{Protect Endpoints}
+All API endpoints (except \texttt{/auth/login}) shall require valid JWT token via \texttt{Authorization: Bearer \{token\}} header.
+
+\subsection{System Health Monitoring}
+
+\subsubsection{Application Health Check}
+\texttt{GET /health/app} shall return:
+\begin{itemize}
+    \item Scheduler status (running/stopped)
+    \item Last training job timestamp
+\end{itemize}
+
+\subsubsection{Odoo Connection Check}
+\texttt{GET /health/odoo} shall verify:
+\begin{itemize}
+    \item Connectivity to Odoo server
+    \item Authentication status
+    \item Database accessibility
+\end{itemize}
+
+\section{Non-Functional Requirements Specification}
+
+Non-functional requirements define quality attributes ensuring ERPConnect delivers professional, reliable performance.
+
+\subsection{Performance Requirements}
+
+\subsubsection{NFR-1.1: Response Time}
+\begin{itemize}
+    \item Cached endpoints: \textless 10ms
+    \item Uncached dashboard endpoints: \textless 500ms
+    \item ML forecast generation: \textless 5 minutes for 1000 products
+\end{itemize}
+
+\subsubsection{NFR-1.2: Caching Strategy}
+\begin{itemize}
+    \item TTL-based in-memory caching implemented
+    \item Cache duration: 90-120 seconds depending on endpoint
+    \item Cached endpoints: \texttt{/dashboard/*}, \texttt{/ai/*}, \texttt{/kpi/*}
+\end{itemize}
+
+\textbf{Implementation:} \texttt{app/services/cache.py}
+
+\subsubsection{NFR-1.3: Data Retrieval Optimization}
+\begin{itemize}
+    \item Bulk XML-RPC queries to minimize roundtrips
+    \item Single \texttt{search\_read} call for all products (limit: 50,000 records)
+    \item Aggregation performed in-memory to avoid repeated API calls
+\end{itemize}
+
+\subsection{Scalability Requirements}
+
+\subsubsection{NFR-2.1: Data Volume Capacity}
+\begin{itemize}
+    \item Support catalogs up to 10,000 products
+    \item Handle 100,000 sales transactions in lookback window
+    \item Store ML models for up to 500 products simultaneously
+\end{itemize}
+
+\subsubsection{NFR-2.2: Concurrent Users}
+\begin{itemize}
+    \item Support 50-100 concurrent API requests
+    \item CORS enabled for multiple frontend clients
+\end{itemize}
+
+\subsection{Security Requirements}
+
+\subsubsection{Authentication Security}
+\begin{itemize}
+    \item JWT signing with secret key (configurable via environment)
+    \item Token expiration enforced (8 hours)
+    \item \texttt{OAuth2PasswordBearer} security scheme
+\end{itemize}
+
+\subsubsection{API Security}
+\begin{itemize}
+    \item CORS middleware with configurable origins
+    \item Input validation via Pydantic models
+    \item Exception handling to prevent information leakage
+\end{itemize}
+
+\subsubsection{Credential Management}
+\begin{itemize}
+    \item Odoo credentials stored in environment variables (\texttt{.env})
+    \item JWT secret key externalized
+    \item No hardcoded sensitive data in source code
+\end{itemize}
+
+\subsection{Reliability and Availability}
+
+\subsubsection{Error Handling}
+\begin{itemize}
+    \item Graceful degradation: forecast fallback to baseline if ML unavailable
+    \item Exception handling for Odoo connectivity issues
+    \item Empty result sets handled without crashes
+\end{itemize}
+
+\subsubsection{Model Persistence}
+\begin{itemize}
+    \item ML models persisted to filesystem via joblib
+    \item Model loading failures handled with fallback mechanisms
+    \item Training results logged for troubleshooting
+\end{itemize}
+
+\subsection{Maintainability Requirements}
+
+\subsubsection{Code Organization}
+\begin{itemize}
+    \item Modular architecture: separate routers and services
+    \item AI algorithms isolated in \texttt{app/services/ai/} directory
+    \item Clear separation: connectors, business logic, API layer
+\end{itemize}
+
+\subsubsection{Documentation}
+\begin{itemize}
+    \item FastAPI automatic OpenAPI documentation at \texttt{/docs}
+    \item Inline docstrings for complex algorithms
+    \item README with demo one-liners and talking points
+\end{itemize}
+
+\subsubsection{Development Standards}
+\begin{itemize}
+    \item Python type hints for function signatures
+    \item Pydantic models for request/response validation
+    \item Environment-based configuration (no hardcoded values)
+\end{itemize}
+
+\subsection{Compatibility and Integration}
+
+\subsubsection{ERP Compatibility}
+\begin{itemize}
+    \item Odoo versions: 14.0+ (tested)
+    \item Dolibarr support: theoretical (XML-RPC protocol compatible)
+    \item API versioning: \texttt{/xmlrpc/2/} endpoints
+\end{itemize}
+
+\subsubsection{Deployment Environment}
+\begin{itemize}
+    \item Python 3.8+ required
+    \item Cross-platform: Windows, Linux, macOS
+    \item Lightweight dependencies (no GPU required)
+    \item Containerization-ready (no OS-specific dependencies)
+\end{itemize}
+
+\subsubsection{Frontend Integration}
+\begin{itemize}
+    \item RESTful API with JSON responses
+    \item CORS enabled for web clients
+    \item Endpoints designed for React/Vue.js consumption
+\end{itemize}
+
+\section{Conclusion}
+
+This chapter provided a comprehensive specification of ERPConnect's requirements based on the actual implemented system. We detailed functional requirements organized by service module (demand prediction, ML forecasting, replenishment, segmentation, anomalies, KPIs), specifying exact algorithms, formulas, and API endpoints.
+
+Non-functional requirements addressed performance (caching, bulk queries), scalability (product/transaction limits), security (JWT auth, CORS), reliability (error handling, model persistence), maintainability (modular code, documentation), and compatibility (Odoo 14+, Python 3.8+).
+
+The identification of four actor types (System Administrator, Business Manager, Data Analyst, Odoo ERP) clarified access levels aligned with our JWT role system. Detailed use case specifications in tabular format documented real API workflows, providing acceptance criteria directly traceable to source code.
+
+With requirements accurately documented reflecting actual implementation, we proceed to Chapter 3, which will model system design through UML diagrams and architectural views.
+
+% ========================================
+% PAUSE FOR USER VALIDATION
+% ========================================
+
+% NOTE: Before proceeding to Chapter 3 (System Design), we need to discuss:
+% 1. Which UML diagrams to generate (sequence, class, component, deployment?)
+% 2. Preferred diagramming tool (PlantUML, draw.io, Lucidchart?)
+% 3. Level of detail for each diagram type
+% 4. Specific workflows to model in sequence diagrams
+
+% ========================================
+% CHAPTER 3: SYSTEM DESIGN
+% ========================================
+\newpage
+% ========================================
+% CHAPTER 3: SYSTEM DESIGN  
+% ========================================
+\newpage
+\chapter{System Design}
+
+\section*{Chapter Objectives}
+\addcontentsline{toc}{section}{Chapter Objectives}
+
+This chapter details the technical architecture of ERPConnect through a series of UML models. We focus on both functional design (Use Cases) and technical implementation (Dynamic, Static, and Data modeling).
+
+\section{Introduction}
+
+The design phase transforms the functional requirements of Chapter 2 into a technical roadmap. We have organized this chapter into four key pillars:
+\begin{enumerate}
+    \item \textbf{Actor Identification}: Roles and responsibilities within the system.
+    \item \textbf{Functional Modeling}: Use case diagrams for core and AI features.
+    \item \textbf{Technical Diagrams}: Dynamic workflows and static structural views.
+    \item \textbf{Data Modeling}: Structural mapping and analytical attributes.
+\end{enumerate}
+
+\section{Actor Identification}
+
+The following actors interact with ERPConnect:
+\begin{itemize}
+    \item \textbf{System Administrator}: Manages users, roles, and system health.
+    \item \textbf{Business Manager}: Decision-maker viewing dashboards and forecasts.
+    \item \textbf{Data Analyst}: Technical user adjusting AI parameters and models.
+    \item \textbf{Odoo ERP}: External data source acting as a backend system.
+\end{itemize}
+
+\section{Use Case Modeling}
+
+Functional requirements are consolidated into two primary views targeting core operations and advanced analytics.
+
+\subsection{Core System Operations}
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[language={}]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor "System Administrator" as Admin
+actor "Business Manager" as Manager
+actor "Data Analyst" as Analyst
+rectangle ERPConnect_Core {
+  usecase "Authenticate (Login)" as UC1
+  usecase "View Dashboard Overview" as UC2
+  usecase "Monitor System Health" as UC3
+  usecase "Export Data to CSV" as UC4
+  usecase "Track Sales KPIs" as UC5
+}
+Admin -- UC1
+Admin -- UC3
+Manager -- UC1
+Manager -- UC2
+Manager -- UC5
+Analyst -- UC1
+Analyst -- UC4
+Analyst -- UC5
+UC2 ..> UC5 : <<include>>
+@enduml
+\end{lstlisting}
+\caption{Core System Use Cases}
+\end{figure}
+
+\textbf{Description:} This diagram illustrates the basic interactions for security (JWT Login), general business monitoring (KPIs/Dashboard), and data portability (CSV Export).
+
+\subsection{AI-Powered Analytics}
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[language={}]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor "Business Manager" as Manager
+actor "Data Analyst" as Analyst
+actor "APScheduler" as Cron <<System>>
+actor "Odoo ERP" as Odoo <<External>>
+rectangle ERPConnect_AI {
+  usecase "Generate Demand Forecast" as UCAI1
+  usecase "Calculate Replenishment (ROP)" as UCAI2
+  usecase "Perform ABC/XYZ Segmentation" as UCAI3
+  usecase "Detect Sales Anomalies" as UCAI4
+  usecase "Train ML Models (Nightly)" as UCAI5
+}
+Manager -- UCAI1
+Manager -- UCAI2
+Manager -- UCAI4
+Analyst -- UCAI1
+Analyst -- UCAI3
+Analyst -- UCAI5
+Cron -- UCAI5
+UCAI5 -- Odoo : <<fetch data>>
+UCAI2 ..> UCAI1 : <<extend>>
+@enduml
+\end{lstlisting}
+\caption{AI and Decision Support Use Cases}
+\end{figure}
+
+\textbf{Description:} Focuses on advanced analytics, showing the interaction between human decision-makers and automated background tasks like the nightly training of machine learning models.
+
+\section{Technical UML Diagrams}
+
+\subsection{Dynamic Modeling}
+
+\subsubsection{Diagram 1: User Authentication (Sequence)}
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[language={}]
+@startuml
+actor User
+participant Router
+participant AuthService
+participant JWT
+database UserDB
+User -> Router: Login request
+Router -> AuthService: Authenticate
+AuthService -> UserDB: Verify credentials
+UserDB --> AuthService: User data
+AuthService --> Router: Valid user
+Router -> JWT: Generate token
+JWT --> Router: JWT (8h expiry)
+Router --> User: Access token
+@enduml
+\end{lstlisting}
+\caption{Dynamic Authentication Flow}
+\end{figure}
+
+\textbf{Description:} This sequence diagram models the secure OAuth2 password flow. It highlights the separation between credential validation and the generation of signed JWT tokens for subsequent API authorization.
+
+\subsubsection{Diagram 2: ML Forecast Generation (Sequence)}
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[language={}]
+@startuml
+actor Manager
+participant Router
+participant Cache
+participant MLService
+participant ModelStore
+participant Odoo
+Manager -> Router: Request forecast
+Router -> Cache: Check cache
+alt Cache Hit
+    Cache --> Router: Cached data
+else Cache Miss
+    Router -> MLService: Generate forecast
+    MLService -> ModelStore: Load ML model
+    alt Model Available
+        MLService -> Odoo: Fetch sales data
+        MLService -> MLService: Predict + confidence
+    else No Model
+        MLService -> MLService: Baseline forecast
+    end
+    MLService --> Router: Result
+    Router -> Cache: Store result
+end
+Router --> Manager: Result
+@enduml
+\end{lstlisting}
+\caption{Dynamic Forecasting Workflow}
+\end{figure}
+
+\textbf{Description:} Models the intelligent demand prediction process, showcasing the cache-first strategy and the automatic fallback to a baseline statistical model if a trained ML joblib file is unavailable.
+
+\subsubsection{Diagram 3: Nightly ML Training (Activity)}
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[language={}]
+@startuml
+start
+:Scheduler triggers (midnight);
+:Fetch products from ERP;
+:Select top 50 by sales volume;
+while (For each product)
+  :Fetch sales history;
+  if (Sufficient data?) then (yes)
+    :Train ML model (Polynomial);
+    :Save model to disk;
+  else (no)
+    :Skip product;
+  endif
+endwhile
+:Log completion;
+stop
+@enduml
+\end{lstlisting}
+\caption{Automated Training Lifecycle}
+\end{figure}
+
+\textbf{Description:} Represents the automated pipeline performed every midnight. It ensures the most significant products have updated predictive models by retraining them using the latest Odoo transaction data.
+
+\subsection{Static Modeling}
+
+\subsubsection{Diagram 4: System Class Structure}
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[language={}]
+@startuml
+package "API Layer" #FFFACD {
+  class AIRouter
+  class AuthRouter
+}
+package "Services" #E6F3FF {
+  class OdooConnector
+  class CacheService
+  class MLForecastService
+  class AuthService
+}
+package "Pydantic Models" {
+  class User
+  class Token
+}
+AIRouter ..> MLForecastService
+MLForecastService ..> OdooConnector
+AuthRouter ..> AuthService
+AuthService --> User
+@enduml
+\end{lstlisting}
+\caption{Static Class Architecture Overview}
+\end{figure}
+
+\textbf{Description:} Provides a structural view of the modular FastAPI backend. The diagram organizes the core components into an API presentation layer and a business services layer, following the Dependency Injection pattern.
+
+\subsubsection{Diagram 5: Component Architecture}
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[language={}]
+@startuml
+package "Frontend" {
+  [React App]
+}
+package "Backend" {
+  [API Layer]
+  [Business Logic]
+  [Odoo Connector]
+}
+package "External" {
+  [Odoo ERP]
+  [File Storage]
+}
+[React App] --> [API Layer] : HTTPS
+[API Layer] --> [Business Logic]
+[Business Logic] --> [Odoo Connector]
+[Odoo Connector] --> [Odoo ERP] : XML-RPC
+[Business Logic] --> [File Storage] : models/
+@enduml
+\end{lstlisting}
+\caption{High-Level Component Interaction}
+\end{figure}
+
+\textbf{Description:} Shows the physical organization of the system into three main islands: the client interface, the processing backend, and the external data ecosystems (Odoo and the local machine learning filesystem).
+
+\section{Data Modeling}
+
+As an analytical layer, ERPConnect maps raw Odoo transaction tables into predictive feature sets.
+
+\subsection{Relational Model (MLD)}
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[language={}]
+@startuml
+entity "Product" as product {
+  *id : int
+  qty_available : float
+}
+entity "Sales" as sale {
+  *id : int
+  qty_delivered : float
+  price_unit : float
+  date_order : datetime
+}
+product ||--o{ sale
+@enduml
+\end{lstlisting}
+\caption{Core Logical Data Relationship}
+\end{figure}
+
+\subsection{Data Dictionary}
+
+\begin{table}[h]
+\centering
+\caption{Key Analytical Fields}
+\small
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Field} & \textbf{Source} & \textbf{Description} \\
+\hline
+\texttt{qty\_available} & Odoo & Current physical stock level. \\
+\hline
+\texttt{daily\_qty} & Calculated & Aggregated volume for ML training. \\
+\hline
+\texttt{abc\_class} & Calculated & Profitability segment (A, B, or C). \\
+\hline
+\texttt{forecast\_qty} & ML Model & Predicted future demand. \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Conclusion}
+
+This chapter has provided a concise technical blueprint of ERPConnect. By modeling functional interactions (Use Cases) alongside dynamic workflows and static component structures, we have established a solid foundation for the implementation phase detailed in Chapter 4.
+
+\newpage
+% ========================================
+% CHAPTER 4: SYSTEM REALIZATION
+% ========================================
+\chapter{System Realization}
+
+\section{Introduction}
+
+This final chapter details the implementation phase of ERPConnect. We present the development environment, the technical choices regarding the software stack, and a showcase of the main user interfaces that realize the functional requirements and analytical capabilities of the system.
+
+\section{Development Environment}
+
+The choice of development environment was guided by the need for high performance, modularity, and rapid prototyping of machine learning models.
+
+\subsection{Hardware Environment}
+
+The development and testing were carried out on a workstation with the following technical specifications:
+\begin{itemize}
+    \item \textbf{Processor:} Intel Core i7 (11th Gen) with 8 cores;
+    \item \textbf{RAM:} 16 GB DDR4;
+    \item \textbf{Storage:} 512 GB SSD NVMe;
+    \item \textbf{Connectivity:} High-speed fiber optic for remote Odoo connection.
+\end{itemize}
+
+\subsection{Software Environment}
+
+A modern and robust software stack was selected to handle real-time data processing and interactive visualizations:
+\begin{itemize}
+    \item \textbf{Operating System:} Windows 11 with WSL2 (Windows Subsystem for Linux) \\
+    \begin{center}
+        \includegraphics[width=2cm]{windows_logo.png}
+    \end{center}
+    
+    \item \textbf{Backend Framework:} \textbf{FastAPI} for its high performance and automatic documentation \\
+    \begin{center}
+        \includegraphics[width=3cm]{fastapi_logo.png}
+    \end{center}
+    
+    \item \textbf{Frontend Library:} \textbf{React} for building a responsive and modular user interface \\
+    \begin{center}
+        \includegraphics[width=3cm]{react_logo.png}
+    \end{center}
+    
+    \item \textbf{AI Stack:} \textbf{scikit-learn} for predictive modeling and \textbf{pandas} for data manipulation \\
+    \begin{center}
+        \includegraphics[width=3cm]{sklearn_logo.png} \hspace{1cm} \includegraphics[width=3cm]{pandas_logo.png}
+    \end{center}
+    
+    \item \textbf{Data Integration:} \textbf{Odoo ERP API} via XML-RPC library for seamless communication \\
+    \begin{center}
+        \includegraphics[width=3cm]{odoo_logo.png}
+    \end{center}
+    
+    \item \textbf{Persistence:} \textbf{joblib} for storing trained ML models on disk \\
+    \begin{center}
+        \includegraphics[width=3cm]{joblib_logo.png}
+    \end{center}
+    
+    \item \textbf{Advanced Tools:} 
+    \begin{itemize}
+        \item \textbf{Visual Studio Code:} Primary source code editor
+        \begin{center} \includegraphics[width=1.5cm]{vscode_logo.png} \end{center}
+        \item \textbf{Git:} Version control system
+        \begin{center} \includegraphics[width=1.5cm]{git_logo.png} \end{center}
+        \item \textbf{Postman:} API testing and documentation tool
+        \begin{center} \includegraphics[width=1.5cm]{postman_logo.png} \end{center}
+    \end{itemize}
+\end{itemize}
+
+\section{Main User Interfaces}
+
+ERPConnect provides a professional, dark-mode focused interface designed for business clarity.
+
+\subsection{Decision Support Dashboard}
+
+The main dashboard serves as the central command center, offering a consolidated view of the company's health through more than 30 modular KPIs.
+
+\begin{figure}[h]
+\centering
+%\includegraphics[width=0.9\textwidth]{dashboard_ui.png}
+\caption{ERPConnect Main Dashboard - Modular KPI Overview}
+\label{fig:dashboard_ui}
+\end{figure}
+
+\textbf{Key Features:}
+\begin{itemize}
+    \item Real-time revenue and growth tracking;
+    \item Interactive charts showing sales trends;
+    \item Distribution of stock according to the ABC/XYZ matrix;
+    \item Dynamic alerts for low stock or abnormal sales.
+\end{itemize}
+
+\subsection{Product Intelligence \& ML Forecast}
+
+Each product has a dedicated analytical view where the ML models provide 30-day forecasts with confidence intervals.
+
+\begin{figure}[h]
+\centering
+%\includegraphics[width=0.9\textwidth]{forecast_ui.png}
+\caption{Product Intelligence View - ML Forecast with Confidence Intervals}
+\label{fig:forecast_ui}
+\end{figure}
+
+\textbf{Key Features:}
+\begin{itemize}
+    \item Visual forecast vs. historical sales;
+    \item Confidence intervals (shadow area) indicating prediction risk;
+    \item Performance metrics (MAE, sMAPE) for model transparency;
+    \item Action buttons to trigger immediate model retraining.
+\end{itemize}
+
+\subsection{Smart Replenishment (ROP)}
+
+The replenishment interface translates raw data into procurement actions, helping inventory managers avoid stockouts.
+
+\begin{figure}[h]
+\centering
+%\includegraphics[width=0.9\textwidth]{replenishment_ui.png}
+\caption{Replenishment Interface - ROP-based Ordering Recommendations}
+\label{fig:replenishment_ui}
+\end{figure}
+
+\textbf{Key Features:}
+\begin{itemize}
+    \item Automatic calculation of Reorder Points (ROP);
+    \item Color-coded urgency levels (Order Now, Monitor, OK);
+    \item Suggested order quantities based on daily consumption;
+    \item CSV export functionality for purchasing departments.
+\end{itemize}
+
+\section{Conclusion}
+
+The realization phase successfully transformed the design requirements into a production-ready application. By leveraging an asynchronous backend and a dynamic frontend, ERPConnect provides a seamless experience for data-driven decision-making. The system effectively bridges the gap between raw ERP data and actionable strategic insights.
+
+\newpage
+
+% ========================================
+% GENERAL CONCLUSION
+% ========================================
+\chapter*{General Conclusion}
+\addcontentsline{toc}{chapter}{General Conclusion}
+\markboth{General Conclusion}{General Conclusion}
+
+The development of \textbf{ERPConnect} addressed a critical need in modern business management: the ability to leverage existing ERP data for proactive strategic planning. Throughout this project, we have successfully integrated advanced artificial intelligence techniques into a modular architecture capable of working with professional systems like Odoo.
+
+We achieved several key objectives:
+\begin{itemize}
+    \item The creation of a high-performance microservices backend using FastAPI;
+    \item The implementation of a reliable ML pipeline for demand forecasting;
+    \item The design of a modular interface for business monitoring via KPIs;
+    \item The development of an automated inventory optimization engine.
+\end{itemize}
+
+This project demonstrated that intelligent modules can significantly enhance traditional ERP systems without requiring heavy structural modifications. Future perspectives for ERPConnect include the integration of more complex algorithms like Deep Learning (LSTM) for very long-term seasonal patterns and the expansion of the connector system to support other ERPs like SAP or Microsoft Dynamics.
+
+\newpage
+
+% ========================================
+% BIBLIOGRAPHY
+% ========================================
+\chapter*{Bibliography and Webography}
+\addcontentsline{toc}{chapter}{Bibliography and Webography}
+
+\section*{Books and Academic Papers}
+\begin{itemize}
+    \item \textbf{Montgomery, D. C. (2015):} \textit{Introduction to Statistical Quality Control}, Wiley. (Used for Z-score and anomaly detection logic).
+    
+    \item \textbf{Silver, E. A. (2016):} \textit{Inventory Management and Production Planning and Scheduling}, Wiley. (Used for ROP and safety stock formulas).
+\end{itemize}
+
+\section*{Technical Documentation}
+\begin{itemize}
+    \item \textbf{FastAPI Documentation:} \url{https://fastapi.tiangolo.com/}
+    \item \textbf{React Documentation:} \url{https://reactjs.org/}
+    \item \textbf{Odoo Web Service API:} \url{https://www.odoo.com/documentation/14.0/developer/api/external_api.html}
+    \item \textbf{scikit-learn User Guide:} \url{https://scikit-learn.org/stable/user_guide.html}
+\end{itemize}
+
+\end{document}

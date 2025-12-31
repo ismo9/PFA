@@ -1,0 +1,2142 @@
+2025-12-07 04:26:45,452 INFO erpconnect Starting APScheduler
+2025-12-07 04:26:45,458 INFO erpconnect Shutting down APScheduler
+2025-12-07 04:27:01,596 INFO erpconnect Starting APScheduler
+2025-12-07 04:27:12,237 INFO erpconnect Starting APScheduler
+2025-12-07 04:34:56,802 WARNING erpconnect Model not found for product 1
+2025-12-07 04:35:04,976 ERROR erpconnect Predict failed for product 154: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-07 04:35:53,049 ERROR erpconnect Predict failed for product 180: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-07 04:40:24,644 INFO erpconnect Shutting down APScheduler
+2025-12-07 04:40:43,308 INFO erpconnect Starting APScheduler
+2025-12-07 04:40:43,317 INFO erpconnect Shutting down APScheduler
+2025-12-07 04:41:03,713 INFO erpconnect Starting APScheduler
+2025-12-07 04:42:54,453 INFO erpconnect Shutting down APScheduler
+2025-12-07 04:43:14,918 INFO erpconnect Starting APScheduler
+2025-12-07 04:43:14,924 INFO erpconnect Shutting down APScheduler
+2025-12-07 04:43:35,096 INFO erpconnect Starting APScheduler
+2025-12-07 04:48:15,476 INFO erpconnect Shutting down APScheduler
+2025-12-07 04:48:30,998 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:13:31,154 INFO erpconnect Starting APScheduler
+2025-12-08 00:14:55,416 INFO erpconnect Starting APScheduler
+2025-12-08 00:23:32,150 ERROR erpconnect Predict failed for product 201: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,199 ERROR erpconnect Predict failed for product 202: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,219 ERROR erpconnect Predict failed for product 203: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,242 ERROR erpconnect Predict failed for product 204: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,269 ERROR erpconnect Predict failed for product 205: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,292 ERROR erpconnect Predict failed for product 206: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,314 ERROR erpconnect Predict failed for product 207: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,336 ERROR erpconnect Predict failed for product 208: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,355 ERROR erpconnect Predict failed for product 209: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,375 ERROR erpconnect Predict failed for product 210: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,397 ERROR erpconnect Predict failed for product 211: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,400 WARNING erpconnect Model not found for product 212
+2025-12-08 00:23:32,419 ERROR erpconnect Predict failed for product 213: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,441 ERROR erpconnect Predict failed for product 214: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,444 WARNING erpconnect Model not found for product 215
+2025-12-08 00:23:32,465 ERROR erpconnect Predict failed for product 216: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,485 ERROR erpconnect Predict failed for product 217: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,506 ERROR erpconnect Predict failed for product 218: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,532 ERROR erpconnect Predict failed for product 219: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,558 ERROR erpconnect Predict failed for product 220: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,587 ERROR erpconnect Predict failed for product 221: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,616 ERROR erpconnect Predict failed for product 222: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,637 ERROR erpconnect Predict failed for product 223: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,663 ERROR erpconnect Predict failed for product 224: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,687 ERROR erpconnect Predict failed for product 225: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,716 ERROR erpconnect Predict failed for product 226: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,745 ERROR erpconnect Predict failed for product 227: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,770 ERROR erpconnect Predict failed for product 228: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,798 ERROR erpconnect Predict failed for product 229: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,823 ERROR erpconnect Predict failed for product 230: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,851 ERROR erpconnect Predict failed for product 151: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,874 ERROR erpconnect Predict failed for product 152: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,902 ERROR erpconnect Predict failed for product 153: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,931 ERROR erpconnect Predict failed for product 154: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,962 ERROR erpconnect Predict failed for product 155: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:32,989 ERROR erpconnect Predict failed for product 156: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,040 ERROR erpconnect Predict failed for product 157: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,070 ERROR erpconnect Predict failed for product 158: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,100 ERROR erpconnect Predict failed for product 159: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,127 ERROR erpconnect Predict failed for product 160: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,163 ERROR erpconnect Predict failed for product 161: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,176 ERROR erpconnect Predict failed for product 162: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,205 ERROR erpconnect Predict failed for product 163: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,220 ERROR erpconnect Predict failed for product 164: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,243 ERROR erpconnect Predict failed for product 165: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,266 ERROR erpconnect Predict failed for product 166: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,293 ERROR erpconnect Predict failed for product 167: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,327 ERROR erpconnect Predict failed for product 168: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,355 ERROR erpconnect Predict failed for product 169: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,378 ERROR erpconnect Predict failed for product 170: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,409 ERROR erpconnect Predict failed for product 171: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,435 ERROR erpconnect Predict failed for product 172: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,457 ERROR erpconnect Predict failed for product 173: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,465 ERROR erpconnect Predict failed for product 174: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,479 ERROR erpconnect Predict failed for product 175: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,495 ERROR erpconnect Predict failed for product 176: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,512 ERROR erpconnect Predict failed for product 177: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,528 ERROR erpconnect Predict failed for product 178: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,546 ERROR erpconnect Predict failed for product 179: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,565 ERROR erpconnect Predict failed for product 180: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,590 ERROR erpconnect Predict failed for product 181: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,605 ERROR erpconnect Predict failed for product 182: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,612 ERROR erpconnect Predict failed for product 183: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,629 ERROR erpconnect Predict failed for product 184: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,654 ERROR erpconnect Predict failed for product 185: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,665 ERROR erpconnect Predict failed for product 186: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,679 ERROR erpconnect Predict failed for product 187: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,703 ERROR erpconnect Predict failed for product 188: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,718 ERROR erpconnect Predict failed for product 189: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,727 ERROR erpconnect Predict failed for product 190: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,744 ERROR erpconnect Predict failed for product 191: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,759 ERROR erpconnect Predict failed for product 192: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,776 ERROR erpconnect Predict failed for product 193: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,792 ERROR erpconnect Predict failed for product 194: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,809 ERROR erpconnect Predict failed for product 195: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,826 ERROR erpconnect Predict failed for product 196: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,839 ERROR erpconnect Predict failed for product 197: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,850 ERROR erpconnect Predict failed for product 198: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,867 ERROR erpconnect Predict failed for product 199: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:23:33,884 ERROR erpconnect Predict failed for product 200: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 28, in predict_product
+    preds = model.predict(np.arange(1, periods + 1).reshape(-1, 1)).tolist()
+            ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'predict'
+2025-12-08 00:30:32,335 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:30:53,236 INFO erpconnect Starting APScheduler
+2025-12-08 00:30:53,243 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:31:13,320 INFO erpconnect Starting APScheduler
+2025-12-08 00:31:16,496 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:32:20,663 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:32:40,764 INFO erpconnect Starting APScheduler
+2025-12-08 00:32:40,770 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:33:00,644 INFO erpconnect Starting APScheduler
+2025-12-08 00:36:01,511 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:36:21,884 INFO erpconnect Starting APScheduler
+2025-12-08 00:36:21,892 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:36:42,682 INFO erpconnect Starting APScheduler
+2025-12-08 00:36:42,688 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:37:02,519 INFO erpconnect Starting APScheduler
+2025-12-08 00:45:59,563 INFO erpconnect Shutting down APScheduler
+2025-12-08 00:46:20,784 INFO erpconnect Starting APScheduler
+2025-12-08 01:25:55,313 INFO erpconnect Shutting down APScheduler
+2025-12-08 01:26:17,155 INFO erpconnect Starting APScheduler
+2025-12-08 01:26:22,458 INFO erpconnect Trained model 201 (real_points=2 trained_points=30)
+2025-12-08 01:26:25,264 INFO erpconnect Trained model 202 (real_points=3 trained_points=30)
+2025-12-08 01:26:28,034 INFO erpconnect Trained model 203 (real_points=3 trained_points=30)
+2025-12-08 01:26:30,760 INFO erpconnect Trained model 204 (real_points=2 trained_points=30)
+2025-12-08 01:26:33,448 INFO erpconnect Trained model 205 (real_points=3 trained_points=30)
+2025-12-08 01:26:36,165 INFO erpconnect Trained model 206 (real_points=2 trained_points=30)
+2025-12-08 01:26:38,877 INFO erpconnect Trained model 207 (real_points=3 trained_points=30)
+2025-12-08 01:26:41,501 INFO erpconnect Trained model 208 (real_points=3 trained_points=30)
+2025-12-08 01:26:43,914 INFO erpconnect Trained model 209 (real_points=3 trained_points=30)
+2025-12-08 01:26:46,321 INFO erpconnect Trained model 210 (real_points=2 trained_points=30)
+2025-12-08 01:26:48,740 INFO erpconnect Trained model 211 (real_points=3 trained_points=30)
+2025-12-08 01:26:51,170 INFO erpconnect Trained model 212 (real_points=3 trained_points=30)
+2025-12-08 01:26:53,661 INFO erpconnect Trained model 213 (real_points=2 trained_points=30)
+2025-12-08 01:26:56,094 INFO erpconnect Trained model 214 (real_points=3 trained_points=30)
+2025-12-08 01:26:58,518 INFO erpconnect Trained model 215 (real_points=2 trained_points=30)
+2025-12-08 01:27:00,936 INFO erpconnect Trained model 216 (real_points=2 trained_points=30)
+2025-12-08 01:27:03,340 INFO erpconnect Trained model 217 (real_points=3 trained_points=30)
+2025-12-08 01:27:05,771 INFO erpconnect Trained model 218 (real_points=3 trained_points=30)
+2025-12-08 01:27:08,180 INFO erpconnect Trained model 219 (real_points=3 trained_points=30)
+2025-12-08 01:27:10,602 INFO erpconnect Trained model 220 (real_points=3 trained_points=30)
+2025-12-08 01:27:12,968 INFO erpconnect Trained model 221 (real_points=3 trained_points=30)
+2025-12-08 01:27:15,382 INFO erpconnect Trained model 222 (real_points=3 trained_points=30)
+2025-12-08 01:27:17,876 INFO erpconnect Trained model 223 (real_points=2 trained_points=30)
+2025-12-08 01:27:20,290 INFO erpconnect Trained model 224 (real_points=2 trained_points=30)
+2025-12-08 01:27:22,731 INFO erpconnect Trained model 225 (real_points=2 trained_points=30)
+2025-12-08 01:27:25,220 INFO erpconnect Trained model 226 (real_points=2 trained_points=30)
+2025-12-08 01:27:27,589 INFO erpconnect Trained model 227 (real_points=2 trained_points=30)
+2025-12-08 01:27:30,006 INFO erpconnect Trained model 228 (real_points=3 trained_points=30)
+2025-12-08 01:27:32,420 INFO erpconnect Trained model 229 (real_points=3 trained_points=30)
+2025-12-08 01:27:34,789 INFO erpconnect Trained model 230 (real_points=3 trained_points=30)
+2025-12-08 01:27:37,214 INFO erpconnect Trained model 151 (real_points=2 trained_points=30)
+2025-12-08 01:27:39,659 INFO erpconnect Trained model 152 (real_points=2 trained_points=30)
+2025-12-08 01:27:42,011 INFO erpconnect Trained model 153 (real_points=2 trained_points=30)
+2025-12-08 01:27:44,412 INFO erpconnect Trained model 154 (real_points=2 trained_points=30)
+2025-12-08 01:27:46,891 INFO erpconnect Trained model 155 (real_points=2 trained_points=30)
+2025-12-08 01:27:49,229 INFO erpconnect Trained model 156 (real_points=2 trained_points=30)
+2025-12-08 01:27:51,595 INFO erpconnect Trained model 157 (real_points=2 trained_points=30)
+2025-12-08 01:27:53,939 INFO erpconnect Trained model 158 (real_points=2 trained_points=30)
+2025-12-08 01:27:56,302 INFO erpconnect Trained model 159 (real_points=2 trained_points=30)
+2025-12-08 01:27:58,651 INFO erpconnect Trained model 160 (real_points=2 trained_points=30)
+2025-12-08 01:28:01,021 INFO erpconnect Trained model 161 (real_points=2 trained_points=30)
+2025-12-08 01:28:03,362 INFO erpconnect Trained model 162 (real_points=2 trained_points=30)
+2025-12-08 01:28:05,735 INFO erpconnect Trained model 163 (real_points=2 trained_points=30)
+2025-12-08 01:28:08,111 INFO erpconnect Trained model 164 (real_points=2 trained_points=30)
+2025-12-08 01:28:10,489 INFO erpconnect Trained model 165 (real_points=2 trained_points=30)
+2025-12-08 01:28:12,889 INFO erpconnect Trained model 166 (real_points=2 trained_points=30)
+2025-12-08 01:28:15,295 INFO erpconnect Trained model 167 (real_points=2 trained_points=30)
+2025-12-08 01:28:17,695 INFO erpconnect Trained model 168 (real_points=2 trained_points=30)
+2025-12-08 01:28:20,050 INFO erpconnect Trained model 169 (real_points=2 trained_points=30)
+2025-12-08 01:28:22,479 INFO erpconnect Trained model 170 (real_points=2 trained_points=30)
+2025-12-08 01:28:24,850 INFO erpconnect Trained model 171 (real_points=2 trained_points=30)
+2025-12-08 01:28:27,180 INFO erpconnect Trained model 172 (real_points=2 trained_points=30)
+2025-12-08 01:28:29,552 INFO erpconnect Trained model 173 (real_points=2 trained_points=30)
+2025-12-08 01:28:31,910 INFO erpconnect Trained model 174 (real_points=2 trained_points=30)
+2025-12-08 01:28:34,291 INFO erpconnect Trained model 175 (real_points=2 trained_points=30)
+2025-12-08 01:28:36,632 INFO erpconnect Trained model 176 (real_points=2 trained_points=30)
+2025-12-08 01:28:39,098 INFO erpconnect Trained model 177 (real_points=2 trained_points=30)
+2025-12-08 01:28:41,455 INFO erpconnect Trained model 178 (real_points=2 trained_points=30)
+2025-12-08 01:28:43,853 INFO erpconnect Trained model 179 (real_points=2 trained_points=30)
+2025-12-08 01:28:46,223 INFO erpconnect Trained model 180 (real_points=2 trained_points=30)
+2025-12-08 01:28:48,657 INFO erpconnect Trained model 181 (real_points=2 trained_points=30)
+2025-12-08 01:28:51,100 INFO erpconnect Trained model 182 (real_points=2 trained_points=30)
+2025-12-08 01:28:53,489 INFO erpconnect Trained model 183 (real_points=2 trained_points=30)
+2025-12-08 01:28:55,819 INFO erpconnect Trained model 184 (real_points=2 trained_points=30)
+2025-12-08 01:28:58,185 INFO erpconnect Trained model 185 (real_points=2 trained_points=30)
+2025-12-08 01:29:00,540 INFO erpconnect Trained model 186 (real_points=2 trained_points=30)
+2025-12-08 01:29:02,893 INFO erpconnect Trained model 187 (real_points=2 trained_points=30)
+2025-12-08 01:29:05,211 INFO erpconnect Trained model 188 (real_points=2 trained_points=30)
+2025-12-08 01:29:07,543 INFO erpconnect Trained model 189 (real_points=2 trained_points=30)
+2025-12-08 01:29:09,920 INFO erpconnect Trained model 190 (real_points=2 trained_points=30)
+2025-12-08 01:29:12,366 INFO erpconnect Trained model 191 (real_points=2 trained_points=30)
+2025-12-08 01:29:14,916 INFO erpconnect Trained model 192 (real_points=2 trained_points=30)
+2025-12-08 01:29:17,372 INFO erpconnect Trained model 193 (real_points=2 trained_points=30)
+2025-12-08 01:29:19,702 INFO erpconnect Trained model 194 (real_points=2 trained_points=30)
+2025-12-08 01:29:22,168 INFO erpconnect Trained model 195 (real_points=2 trained_points=30)
+2025-12-08 01:29:24,529 INFO erpconnect Trained model 196 (real_points=2 trained_points=30)
+2025-12-08 01:29:26,939 INFO erpconnect Trained model 197 (real_points=2 trained_points=30)
+2025-12-08 01:29:29,309 INFO erpconnect Trained model 198 (real_points=2 trained_points=30)
+2025-12-08 01:29:31,612 INFO erpconnect Trained model 199 (real_points=2 trained_points=30)
+2025-12-08 01:29:34,015 INFO erpconnect Trained model 200 (real_points=2 trained_points=30)
+2025-12-08 01:29:34,076 INFO erpconnect Shutting down APScheduler
+2025-12-08 01:29:55,187 INFO erpconnect Starting APScheduler
+2025-12-08 02:47:43,021 INFO erpconnect Shutting down APScheduler
+2025-12-08 02:47:57,858 INFO erpconnect Starting APScheduler
+2025-12-08 02:47:57,858 INFO erpconnect Shutting down APScheduler
+2025-12-08 02:48:12,436 INFO erpconnect Starting APScheduler
+2025-12-08 03:00:00,013 INFO erpconnect Scheduler: starting train_all job
+2025-12-08 03:00:04,414 INFO erpconnect Trained model 201 (real_points=3 trained_points=30)
+2025-12-08 03:00:06,721 INFO erpconnect Trained model 202 (real_points=4 trained_points=30)
+2025-12-08 03:00:08,985 INFO erpconnect Trained model 203 (real_points=4 trained_points=30)
+2025-12-08 03:00:11,316 INFO erpconnect Trained model 204 (real_points=3 trained_points=30)
+2025-12-08 03:00:13,584 INFO erpconnect Trained model 205 (real_points=4 trained_points=30)
+2025-12-08 03:00:15,889 INFO erpconnect Trained model 206 (real_points=3 trained_points=30)
+2025-12-08 03:00:18,180 INFO erpconnect Trained model 207 (real_points=4 trained_points=30)
+2025-12-08 03:00:20,429 INFO erpconnect Trained model 208 (real_points=4 trained_points=30)
+2025-12-08 03:00:22,647 INFO erpconnect Trained model 209 (real_points=4 trained_points=30)
+2025-12-08 03:00:24,844 INFO erpconnect Trained model 210 (real_points=3 trained_points=30)
+2025-12-08 03:00:27,031 INFO erpconnect Trained model 211 (real_points=4 trained_points=30)
+2025-12-08 03:00:29,290 INFO erpconnect Trained model 212 (real_points=4 trained_points=30)
+2025-12-08 03:00:31,510 INFO erpconnect Trained model 213 (real_points=3 trained_points=30)
+2025-12-08 03:00:33,690 INFO erpconnect Trained model 214 (real_points=3 trained_points=30)
+2025-12-08 03:00:35,870 INFO erpconnect Trained model 215 (real_points=2 trained_points=30)
+2025-12-08 03:00:38,020 INFO erpconnect Trained model 216 (real_points=2 trained_points=30)
+2025-12-08 03:00:40,201 INFO erpconnect Trained model 217 (real_points=3 trained_points=30)
+2025-12-08 03:00:42,386 INFO erpconnect Trained model 218 (real_points=3 trained_points=30)
+2025-12-08 03:00:44,539 INFO erpconnect Trained model 219 (real_points=3 trained_points=30)
+2025-12-08 03:00:46,717 INFO erpconnect Trained model 220 (real_points=3 trained_points=30)
+2025-12-08 03:00:48,889 INFO erpconnect Trained model 221 (real_points=3 trained_points=30)
+2025-12-08 03:00:51,052 INFO erpconnect Trained model 222 (real_points=3 trained_points=30)
+2025-12-08 03:00:53,221 INFO erpconnect Trained model 223 (real_points=2 trained_points=30)
+2025-12-08 03:00:55,408 INFO erpconnect Trained model 224 (real_points=2 trained_points=30)
+2025-12-08 03:00:57,567 INFO erpconnect Trained model 225 (real_points=2 trained_points=30)
+2025-12-08 03:00:59,746 INFO erpconnect Trained model 226 (real_points=2 trained_points=30)
+2025-12-08 03:01:01,946 INFO erpconnect Trained model 227 (real_points=2 trained_points=30)
+2025-12-08 03:01:04,091 INFO erpconnect Trained model 228 (real_points=3 trained_points=30)
+2025-12-08 03:01:06,253 INFO erpconnect Trained model 229 (real_points=3 trained_points=30)
+2025-12-08 03:01:08,404 INFO erpconnect Trained model 230 (real_points=3 trained_points=30)
+2025-12-08 03:01:10,573 INFO erpconnect Trained model 151 (real_points=2 trained_points=30)
+2025-12-08 03:01:12,739 INFO erpconnect Trained model 152 (real_points=2 trained_points=30)
+2025-12-08 03:01:14,886 INFO erpconnect Trained model 153 (real_points=2 trained_points=30)
+2025-12-08 03:01:17,640 INFO erpconnect Trained model 154 (real_points=2 trained_points=30)
+2025-12-08 03:01:19,888 INFO erpconnect Trained model 155 (real_points=2 trained_points=30)
+2025-12-08 03:01:22,068 INFO erpconnect Trained model 156 (real_points=2 trained_points=30)
+2025-12-08 03:01:24,232 INFO erpconnect Trained model 157 (real_points=2 trained_points=30)
+2025-12-08 03:01:26,401 INFO erpconnect Trained model 158 (real_points=2 trained_points=30)
+2025-12-08 03:01:28,619 INFO erpconnect Trained model 159 (real_points=2 trained_points=30)
+2025-12-08 03:01:30,806 INFO erpconnect Trained model 160 (real_points=2 trained_points=30)
+2025-12-08 03:01:32,989 INFO erpconnect Trained model 161 (real_points=2 trained_points=30)
+2025-12-08 03:01:35,147 INFO erpconnect Trained model 162 (real_points=2 trained_points=30)
+2025-12-08 03:01:37,315 INFO erpconnect Trained model 163 (real_points=2 trained_points=30)
+2025-12-08 03:01:39,497 INFO erpconnect Trained model 164 (real_points=2 trained_points=30)
+2025-12-08 03:01:41,654 INFO erpconnect Trained model 165 (real_points=2 trained_points=30)
+2025-12-08 03:01:44,554 INFO erpconnect Trained model 166 (real_points=2 trained_points=30)
+2025-12-08 03:01:46,718 INFO erpconnect Trained model 167 (real_points=2 trained_points=30)
+2025-12-08 03:01:48,883 INFO erpconnect Trained model 168 (real_points=2 trained_points=30)
+2025-12-08 03:01:51,025 INFO erpconnect Trained model 169 (real_points=2 trained_points=30)
+2025-12-08 03:01:53,172 INFO erpconnect Trained model 170 (real_points=2 trained_points=30)
+2025-12-08 03:01:55,355 INFO erpconnect Trained model 171 (real_points=2 trained_points=30)
+2025-12-08 03:01:57,494 INFO erpconnect Trained model 172 (real_points=2 trained_points=30)
+2025-12-08 03:01:59,662 INFO erpconnect Trained model 173 (real_points=2 trained_points=30)
+2025-12-08 03:02:01,832 INFO erpconnect Trained model 174 (real_points=2 trained_points=30)
+2025-12-08 03:02:04,000 INFO erpconnect Trained model 175 (real_points=2 trained_points=30)
+2025-12-08 03:02:06,183 INFO erpconnect Trained model 176 (real_points=2 trained_points=30)
+2025-12-08 03:02:08,360 INFO erpconnect Trained model 177 (real_points=2 trained_points=30)
+2025-12-08 03:02:10,548 INFO erpconnect Trained model 178 (real_points=2 trained_points=30)
+2025-12-08 03:02:12,718 INFO erpconnect Trained model 179 (real_points=2 trained_points=30)
+2025-12-08 03:02:14,907 INFO erpconnect Trained model 180 (real_points=2 trained_points=30)
+2025-12-08 03:02:17,111 INFO erpconnect Trained model 181 (real_points=2 trained_points=30)
+2025-12-08 03:02:19,289 INFO erpconnect Trained model 182 (real_points=2 trained_points=30)
+2025-12-08 03:02:21,478 INFO erpconnect Trained model 183 (real_points=2 trained_points=30)
+2025-12-08 03:02:24,012 INFO erpconnect Trained model 184 (real_points=2 trained_points=30)
+2025-12-08 03:02:26,180 INFO erpconnect Trained model 185 (real_points=2 trained_points=30)
+2025-12-08 03:02:28,363 INFO erpconnect Trained model 186 (real_points=2 trained_points=30)
+2025-12-08 03:02:30,539 INFO erpconnect Trained model 187 (real_points=2 trained_points=30)
+2025-12-08 03:02:32,711 INFO erpconnect Trained model 188 (real_points=2 trained_points=30)
+2025-12-08 03:02:34,890 INFO erpconnect Trained model 189 (real_points=2 trained_points=30)
+2025-12-08 03:02:37,084 INFO erpconnect Trained model 190 (real_points=2 trained_points=30)
+2025-12-08 03:02:39,260 INFO erpconnect Trained model 191 (real_points=2 trained_points=30)
+2025-12-08 03:02:41,412 INFO erpconnect Trained model 192 (real_points=2 trained_points=30)
+2025-12-08 03:02:43,609 INFO erpconnect Trained model 193 (real_points=2 trained_points=30)
+2025-12-08 03:02:45,794 INFO erpconnect Trained model 194 (real_points=2 trained_points=30)
+2025-12-08 03:02:47,977 INFO erpconnect Trained model 195 (real_points=2 trained_points=30)
+2025-12-08 03:02:50,135 INFO erpconnect Trained model 196 (real_points=2 trained_points=30)
+2025-12-08 03:02:52,976 INFO erpconnect Trained model 197 (real_points=2 trained_points=30)
+2025-12-08 03:02:55,123 INFO erpconnect Trained model 198 (real_points=2 trained_points=30)
+2025-12-08 03:02:57,276 INFO erpconnect Trained model 199 (real_points=2 trained_points=30)
+2025-12-08 03:02:59,440 INFO erpconnect Trained model 200 (real_points=2 trained_points=30)
+2025-12-08 03:02:59,441 INFO erpconnect Scheduler: train_all completed: {'trained': [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200], 'failed': []}
+2025-12-08 08:48:29,813 INFO erpconnect Trained model 201 (real_points=3 trained_points=30)
+2025-12-08 08:48:32,382 INFO erpconnect Trained model 202 (real_points=4 trained_points=30)
+2025-12-08 08:48:34,912 INFO erpconnect Trained model 203 (real_points=4 trained_points=30)
+2025-12-08 08:48:37,501 INFO erpconnect Trained model 204 (real_points=3 trained_points=30)
+2025-12-08 08:48:40,082 INFO erpconnect Trained model 205 (real_points=4 trained_points=30)
+2025-12-08 08:48:42,659 INFO erpconnect Trained model 206 (real_points=3 trained_points=30)
+2025-12-08 08:48:45,322 INFO erpconnect Trained model 207 (real_points=4 trained_points=30)
+2025-12-08 08:48:47,821 INFO erpconnect Trained model 208 (real_points=4 trained_points=30)
+2025-12-08 08:48:50,176 INFO erpconnect Trained model 209 (real_points=4 trained_points=30)
+2025-12-08 08:48:52,530 INFO erpconnect Trained model 210 (real_points=3 trained_points=30)
+2025-12-08 08:48:54,913 INFO erpconnect Trained model 211 (real_points=4 trained_points=30)
+2025-12-08 08:48:57,250 INFO erpconnect Trained model 212 (real_points=4 trained_points=30)
+2025-12-08 08:48:59,681 INFO erpconnect Trained model 213 (real_points=3 trained_points=30)
+2025-12-08 08:49:02,023 INFO erpconnect Trained model 214 (real_points=4 trained_points=30)
+2025-12-08 08:49:04,508 INFO erpconnect Trained model 215 (real_points=3 trained_points=30)
+2025-12-08 08:49:06,865 INFO erpconnect Trained model 216 (real_points=3 trained_points=30)
+2025-12-08 08:49:09,198 INFO erpconnect Trained model 217 (real_points=4 trained_points=30)
+2025-12-08 08:49:11,607 INFO erpconnect Trained model 218 (real_points=4 trained_points=30)
+2025-12-08 08:49:14,006 INFO erpconnect Trained model 219 (real_points=4 trained_points=30)
+2025-12-08 08:49:16,371 INFO erpconnect Trained model 220 (real_points=4 trained_points=30)
+2025-12-08 08:49:18,778 INFO erpconnect Trained model 221 (real_points=4 trained_points=30)
+2025-12-08 08:49:21,136 INFO erpconnect Trained model 222 (real_points=4 trained_points=30)
+2025-12-08 08:49:23,483 INFO erpconnect Trained model 223 (real_points=3 trained_points=30)
+2025-12-08 08:49:25,795 INFO erpconnect Trained model 224 (real_points=3 trained_points=30)
+2025-12-08 08:49:28,200 INFO erpconnect Trained model 225 (real_points=3 trained_points=30)
+2025-12-08 08:49:30,531 INFO erpconnect Trained model 226 (real_points=3 trained_points=30)
+2025-12-08 08:49:32,884 INFO erpconnect Trained model 227 (real_points=3 trained_points=30)
+2025-12-08 08:49:35,208 INFO erpconnect Trained model 228 (real_points=4 trained_points=30)
+2025-12-08 08:49:37,605 INFO erpconnect Trained model 229 (real_points=4 trained_points=30)
+2025-12-08 08:49:39,935 INFO erpconnect Trained model 230 (real_points=4 trained_points=30)
+2025-12-08 08:49:42,282 INFO erpconnect Trained model 151 (real_points=3 trained_points=30)
+2025-12-08 08:49:44,593 INFO erpconnect Trained model 152 (real_points=3 trained_points=30)
+2025-12-08 08:49:47,034 INFO erpconnect Trained model 153 (real_points=3 trained_points=30)
+2025-12-08 08:49:49,430 INFO erpconnect Trained model 154 (real_points=3 trained_points=30)
+2025-12-08 08:49:51,786 INFO erpconnect Trained model 155 (real_points=3 trained_points=30)
+2025-12-08 08:49:54,097 INFO erpconnect Trained model 156 (real_points=3 trained_points=30)
+2025-12-08 08:49:56,572 INFO erpconnect Trained model 157 (real_points=3 trained_points=30)
+2025-12-08 08:49:58,891 INFO erpconnect Trained model 158 (real_points=3 trained_points=30)
+2025-12-08 08:50:01,205 INFO erpconnect Trained model 159 (real_points=3 trained_points=30)
+2025-12-08 08:50:03,577 INFO erpconnect Trained model 160 (real_points=3 trained_points=30)
+2025-12-08 08:50:05,937 INFO erpconnect Trained model 161 (real_points=3 trained_points=30)
+2025-12-08 08:50:08,276 INFO erpconnect Trained model 162 (real_points=3 trained_points=30)
+2025-12-08 08:50:10,596 INFO erpconnect Trained model 163 (real_points=3 trained_points=30)
+2025-12-08 08:50:12,928 INFO erpconnect Trained model 164 (real_points=3 trained_points=30)
+2025-12-08 08:50:15,262 INFO erpconnect Trained model 165 (real_points=3 trained_points=30)
+2025-12-08 08:50:17,582 INFO erpconnect Trained model 166 (real_points=3 trained_points=30)
+2025-12-08 08:50:19,974 INFO erpconnect Trained model 167 (real_points=3 trained_points=30)
+2025-12-08 08:50:22,366 INFO erpconnect Trained model 168 (real_points=3 trained_points=30)
+2025-12-08 08:50:24,659 INFO erpconnect Trained model 169 (real_points=3 trained_points=30)
+2025-12-08 08:50:27,011 INFO erpconnect Trained model 170 (real_points=3 trained_points=30)
+2025-12-08 08:50:29,433 INFO erpconnect Trained model 171 (real_points=3 trained_points=30)
+2025-12-08 08:50:31,808 INFO erpconnect Trained model 172 (real_points=3 trained_points=30)
+2025-12-08 08:50:34,114 INFO erpconnect Trained model 173 (real_points=3 trained_points=30)
+2025-12-08 08:50:36,496 INFO erpconnect Trained model 174 (real_points=3 trained_points=30)
+2025-12-08 08:50:38,849 INFO erpconnect Trained model 175 (real_points=3 trained_points=30)
+2025-12-08 08:50:41,260 INFO erpconnect Trained model 176 (real_points=3 trained_points=30)
+2025-12-08 08:50:43,649 INFO erpconnect Trained model 177 (real_points=3 trained_points=30)
+2025-12-08 08:50:46,010 INFO erpconnect Trained model 178 (real_points=3 trained_points=30)
+2025-12-08 08:50:48,383 INFO erpconnect Trained model 179 (real_points=3 trained_points=30)
+2025-12-08 08:50:50,692 INFO erpconnect Trained model 180 (real_points=3 trained_points=30)
+2025-12-08 08:50:53,081 INFO erpconnect Trained model 181 (real_points=3 trained_points=30)
+2025-12-08 08:50:55,454 INFO erpconnect Trained model 182 (real_points=3 trained_points=30)
+2025-12-08 08:50:57,780 INFO erpconnect Trained model 183 (real_points=3 trained_points=30)
+2025-12-08 08:51:00,188 INFO erpconnect Trained model 184 (real_points=3 trained_points=30)
+2025-12-08 08:51:02,643 INFO erpconnect Trained model 185 (real_points=3 trained_points=30)
+2025-12-08 08:51:05,001 INFO erpconnect Trained model 186 (real_points=3 trained_points=30)
+2025-12-08 08:51:07,400 INFO erpconnect Trained model 187 (real_points=3 trained_points=30)
+2025-12-08 08:51:09,740 INFO erpconnect Trained model 188 (real_points=3 trained_points=30)
+2025-12-08 08:51:12,149 INFO erpconnect Trained model 189 (real_points=3 trained_points=30)
+2025-12-08 08:51:14,468 INFO erpconnect Trained model 190 (real_points=3 trained_points=30)
+2025-12-08 08:51:16,862 INFO erpconnect Trained model 191 (real_points=3 trained_points=30)
+2025-12-08 08:51:19,216 INFO erpconnect Trained model 192 (real_points=3 trained_points=30)
+2025-12-08 08:51:21,558 INFO erpconnect Trained model 193 (real_points=3 trained_points=30)
+2025-12-08 08:51:23,979 INFO erpconnect Trained model 194 (real_points=3 trained_points=30)
+2025-12-08 08:51:26,314 INFO erpconnect Trained model 195 (real_points=3 trained_points=30)
+2025-12-08 08:51:28,629 INFO erpconnect Trained model 196 (real_points=3 trained_points=30)
+2025-12-08 08:51:30,968 INFO erpconnect Trained model 197 (real_points=3 trained_points=30)
+2025-12-08 08:51:33,348 INFO erpconnect Trained model 198 (real_points=3 trained_points=30)
+2025-12-08 08:51:35,691 INFO erpconnect Trained model 199 (real_points=3 trained_points=30)
+2025-12-08 08:51:37,971 INFO erpconnect Trained model 200 (real_points=2 trained_points=30)
+2025-12-08 08:51:38,029 INFO erpconnect Shutting down APScheduler
+2025-12-08 11:09:50,774 INFO erpconnect Starting APScheduler
+2025-12-08 11:10:28,551 INFO erpconnect Trained model 201 (real_points=3 trained_points=30)
+2025-12-08 11:10:31,146 INFO erpconnect Trained model 202 (real_points=4 trained_points=30)
+2025-12-08 11:10:33,644 INFO erpconnect Trained model 203 (real_points=4 trained_points=30)
+2025-12-08 11:10:36,305 INFO erpconnect Trained model 204 (real_points=3 trained_points=30)
+2025-12-08 11:10:38,977 INFO erpconnect Trained model 205 (real_points=4 trained_points=30)
+2025-12-08 11:10:41,541 INFO erpconnect Trained model 206 (real_points=3 trained_points=30)
+2025-12-08 11:10:44,060 INFO erpconnect Trained model 207 (real_points=4 trained_points=30)
+2025-12-08 11:10:46,576 INFO erpconnect Trained model 208 (real_points=4 trained_points=30)
+2025-12-08 11:10:48,989 INFO erpconnect Trained model 209 (real_points=4 trained_points=30)
+2025-12-08 11:10:51,377 INFO erpconnect Trained model 210 (real_points=3 trained_points=30)
+2025-12-08 11:10:53,874 INFO erpconnect Trained model 211 (real_points=4 trained_points=30)
+2025-12-08 11:10:56,261 INFO erpconnect Trained model 212 (real_points=4 trained_points=30)
+2025-12-08 11:10:58,762 INFO erpconnect Trained model 213 (real_points=3 trained_points=30)
+2025-12-08 11:11:01,118 INFO erpconnect Trained model 214 (real_points=4 trained_points=30)
+2025-12-08 11:11:03,516 INFO erpconnect Trained model 215 (real_points=3 trained_points=30)
+2025-12-08 11:11:05,865 INFO erpconnect Trained model 216 (real_points=3 trained_points=30)
+2025-12-08 11:11:08,233 INFO erpconnect Trained model 217 (real_points=4 trained_points=30)
+2025-12-08 11:11:10,616 INFO erpconnect Trained model 218 (real_points=4 trained_points=30)
+2025-12-08 11:11:13,039 INFO erpconnect Trained model 219 (real_points=4 trained_points=30)
+2025-12-08 11:11:15,554 INFO erpconnect Trained model 220 (real_points=4 trained_points=30)
+2025-12-08 11:11:17,933 INFO erpconnect Trained model 221 (real_points=4 trained_points=30)
+2025-12-08 11:11:20,363 INFO erpconnect Trained model 222 (real_points=4 trained_points=30)
+2025-12-08 11:11:22,693 INFO erpconnect Trained model 223 (real_points=3 trained_points=30)
+2025-12-08 11:11:24,987 INFO erpconnect Trained model 224 (real_points=3 trained_points=30)
+2025-12-08 11:11:27,485 INFO erpconnect Trained model 225 (real_points=3 trained_points=30)
+2025-12-08 11:11:29,819 INFO erpconnect Trained model 226 (real_points=3 trained_points=30)
+2025-12-08 11:11:32,291 INFO erpconnect Trained model 227 (real_points=3 trained_points=30)
+2025-12-08 11:11:34,704 INFO erpconnect Trained model 228 (real_points=4 trained_points=30)
+2025-12-08 11:11:37,179 INFO erpconnect Trained model 229 (real_points=4 trained_points=30)
+2025-12-08 11:11:39,554 INFO erpconnect Trained model 230 (real_points=4 trained_points=30)
+2025-12-08 11:11:41,890 INFO erpconnect Trained model 151 (real_points=3 trained_points=30)
+2025-12-08 11:11:44,230 INFO erpconnect Trained model 152 (real_points=3 trained_points=30)
+2025-12-08 11:11:46,566 INFO erpconnect Trained model 153 (real_points=3 trained_points=30)
+2025-12-08 11:11:48,933 INFO erpconnect Trained model 154 (real_points=3 trained_points=30)
+2025-12-08 11:11:51,446 INFO erpconnect Trained model 155 (real_points=3 trained_points=30)
+2025-12-08 11:11:53,829 INFO erpconnect Trained model 156 (real_points=3 trained_points=30)
+2025-12-08 11:11:56,136 INFO erpconnect Trained model 157 (real_points=3 trained_points=30)
+2025-12-08 11:11:58,482 INFO erpconnect Trained model 158 (real_points=3 trained_points=30)
+2025-12-08 11:12:00,808 INFO erpconnect Trained model 159 (real_points=3 trained_points=30)
+2025-12-08 11:12:03,214 INFO erpconnect Trained model 160 (real_points=3 trained_points=30)
+2025-12-08 11:12:05,620 INFO erpconnect Trained model 161 (real_points=3 trained_points=30)
+2025-12-08 11:12:07,938 INFO erpconnect Trained model 162 (real_points=3 trained_points=30)
+2025-12-08 11:12:10,267 INFO erpconnect Trained model 163 (real_points=3 trained_points=30)
+2025-12-08 11:12:12,594 INFO erpconnect Trained model 164 (real_points=3 trained_points=30)
+2025-12-08 11:12:15,006 INFO erpconnect Trained model 165 (real_points=3 trained_points=30)
+2025-12-08 11:12:17,261 INFO erpconnect Trained model 166 (real_points=3 trained_points=30)
+2025-12-08 11:12:19,569 INFO erpconnect Trained model 167 (real_points=3 trained_points=30)
+2025-12-08 11:12:22,003 INFO erpconnect Trained model 168 (real_points=3 trained_points=30)
+2025-12-08 11:12:24,330 INFO erpconnect Trained model 169 (real_points=3 trained_points=30)
+2025-12-08 11:12:26,647 INFO erpconnect Trained model 170 (real_points=3 trained_points=30)
+2025-12-08 11:12:29,003 INFO erpconnect Trained model 171 (real_points=3 trained_points=30)
+2025-12-08 11:12:31,338 INFO erpconnect Trained model 172 (real_points=3 trained_points=30)
+2025-12-08 11:12:33,688 INFO erpconnect Trained model 173 (real_points=3 trained_points=30)
+2025-12-08 11:12:36,008 INFO erpconnect Trained model 174 (real_points=3 trained_points=30)
+2025-12-08 11:12:38,327 INFO erpconnect Trained model 175 (real_points=3 trained_points=30)
+2025-12-08 11:12:40,663 INFO erpconnect Trained model 176 (real_points=3 trained_points=30)
+2025-12-08 11:12:42,941 INFO erpconnect Trained model 177 (real_points=3 trained_points=30)
+2025-12-08 11:12:45,278 INFO erpconnect Trained model 178 (real_points=3 trained_points=30)
+2025-12-08 11:12:47,536 INFO erpconnect Trained model 179 (real_points=3 trained_points=30)
+2025-12-08 11:12:49,802 INFO erpconnect Trained model 180 (real_points=3 trained_points=30)
+2025-12-08 11:12:52,054 INFO erpconnect Trained model 181 (real_points=3 trained_points=30)
+2025-12-08 11:12:54,259 INFO erpconnect Trained model 182 (real_points=3 trained_points=30)
+2025-12-08 11:12:56,529 INFO erpconnect Trained model 183 (real_points=3 trained_points=30)
+2025-12-08 11:12:58,921 INFO erpconnect Trained model 184 (real_points=3 trained_points=30)
+2025-12-08 11:13:01,300 INFO erpconnect Trained model 185 (real_points=3 trained_points=30)
+2025-12-08 11:13:03,667 INFO erpconnect Trained model 186 (real_points=3 trained_points=30)
+2025-12-08 11:13:06,004 INFO erpconnect Trained model 187 (real_points=3 trained_points=30)
+2025-12-08 11:13:08,355 INFO erpconnect Trained model 188 (real_points=3 trained_points=30)
+2025-12-08 11:13:10,670 INFO erpconnect Trained model 189 (real_points=3 trained_points=30)
+2025-12-08 11:13:12,997 INFO erpconnect Trained model 190 (real_points=3 trained_points=30)
+2025-12-08 11:13:15,365 INFO erpconnect Trained model 191 (real_points=3 trained_points=30)
+2025-12-08 11:13:17,626 INFO erpconnect Trained model 192 (real_points=3 trained_points=30)
+2025-12-08 11:13:19,968 INFO erpconnect Trained model 193 (real_points=3 trained_points=30)
+2025-12-08 11:13:22,345 INFO erpconnect Trained model 194 (real_points=3 trained_points=30)
+2025-12-08 11:13:24,746 INFO erpconnect Trained model 195 (real_points=3 trained_points=30)
+2025-12-08 11:13:27,099 INFO erpconnect Trained model 196 (real_points=3 trained_points=30)
+2025-12-08 11:13:29,607 INFO erpconnect Trained model 197 (real_points=3 trained_points=30)
+2025-12-08 11:13:31,997 INFO erpconnect Trained model 198 (real_points=3 trained_points=30)
+2025-12-08 11:13:34,442 INFO erpconnect Trained model 199 (real_points=3 trained_points=30)
+2025-12-08 11:13:36,801 INFO erpconnect Trained model 200 (real_points=2 trained_points=30)
+2025-12-08 11:15:27,886 INFO erpconnect Shutting down APScheduler
+2025-12-08 11:15:46,761 INFO erpconnect Starting APScheduler
+2025-12-08 11:17:14,168 INFO erpconnect Shutting down APScheduler
+2025-12-08 11:17:31,981 INFO erpconnect Starting APScheduler
+2025-12-08 11:17:38,696 INFO erpconnect Shutting down APScheduler
+2025-12-08 11:17:56,044 INFO erpconnect Starting APScheduler
+2025-12-08 11:17:56,049 INFO erpconnect Shutting down APScheduler
+2025-12-08 11:18:13,213 INFO erpconnect Starting APScheduler
+2025-12-08 11:59:45,127 INFO erpconnect Shutting down APScheduler
+2025-12-08 12:00:03,130 INFO erpconnect Starting APScheduler
+2025-12-08 12:00:03,130 INFO erpconnect Shutting down APScheduler
+2025-12-08 12:00:19,854 INFO erpconnect Starting APScheduler
+2025-12-08 12:02:34,692 INFO erpconnect Shutting down APScheduler
+2025-12-08 12:02:52,374 INFO erpconnect Starting APScheduler
+2025-12-08 12:29:54,621 INFO erpconnect Shutting down APScheduler
+2025-12-08 12:30:13,003 INFO erpconnect Starting APScheduler
+2025-12-08 12:30:35,886 INFO erpconnect Shutting down APScheduler
+2025-12-08 12:38:12,636 INFO erpconnect Starting APScheduler
+2025-12-09 20:49:29,143 INFO erpconnect Starting APScheduler
+2025-12-10 02:22:23,314 INFO erpconnect Shutting down APScheduler
+2025-12-10 02:22:41,663 INFO erpconnect Starting APScheduler
+2025-12-10 02:23:18,139 INFO erpconnect Shutting down APScheduler
+2025-12-10 02:23:35,582 INFO erpconnect Starting APScheduler
+2025-12-10 03:00:00,011 INFO erpconnect Scheduler: starting train_all job
+2025-12-10 03:00:03,537 INFO erpconnect Scheduler: train_all completed: {'trained': [], 'failed': [{'product_id': 201, 'reason': 'insufficient_data'}, {'product_id': 202, 'reason': 'insufficient_data'}, {'product_id': 203, 'reason': 'insufficient_data'}, {'product_id': 204, 'reason': 'insufficient_data'}, {'product_id': 205, 'reason': 'insufficient_data'}, {'product_id': 206, 'reason': 'insufficient_data'}, {'product_id': 207, 'reason': 'insufficient_data'}, {'product_id': 208, 'reason': 'insufficient_data'}, {'product_id': 209, 'reason': 'insufficient_data'}, {'product_id': 210, 'reason': 'insufficient_data'}, {'product_id': 211, 'reason': 'insufficient_data'}, {'product_id': 212, 'reason': 'insufficient_data'}, {'product_id': 213, 'reason': 'insufficient_data'}, {'product_id': 214, 'reason': 'insufficient_data'}, {'product_id': 215, 'reason': 'insufficient_data'}, {'product_id': 216, 'reason': 'insufficient_data'}, {'product_id': 217, 'reason': 'insufficient_data'}, {'product_id': 218, 'reason': 'insufficient_data'}, {'product_id': 219, 'reason': 'insufficient_data'}, {'product_id': 220, 'reason': 'insufficient_data'}, {'product_id': 221, 'reason': 'insufficient_data'}, {'product_id': 222, 'reason': 'insufficient_data'}, {'product_id': 223, 'reason': 'insufficient_data'}, {'product_id': 224, 'reason': 'insufficient_data'}, {'product_id': 225, 'reason': 'insufficient_data'}, {'product_id': 226, 'reason': 'insufficient_data'}, {'product_id': 227, 'reason': 'insufficient_data'}, {'product_id': 228, 'reason': 'insufficient_data'}, {'product_id': 229, 'reason': 'insufficient_data'}, {'product_id': 230, 'reason': 'insufficient_data'}, {'product_id': 151, 'reason': 'insufficient_data'}, {'product_id': 152, 'reason': 'insufficient_data'}, {'product_id': 153, 'reason': 'insufficient_data'}, {'product_id': 154, 'reason': 'insufficient_data'}, {'product_id': 155, 'reason': 'insufficient_data'}, {'product_id': 156, 'reason': 'insufficient_data'}, {'product_id': 157, 'reason': 'insufficient_data'}, {'product_id': 158, 'reason': 'insufficient_data'}, {'product_id': 159, 'reason': 'insufficient_data'}, {'product_id': 160, 'reason': 'insufficient_data'}, {'product_id': 161, 'reason': 'insufficient_data'}, {'product_id': 162, 'reason': 'insufficient_data'}, {'product_id': 163, 'reason': 'insufficient_data'}, {'product_id': 164, 'reason': 'insufficient_data'}, {'product_id': 165, 'reason': 'insufficient_data'}, {'product_id': 166, 'reason': 'insufficient_data'}, {'product_id': 167, 'reason': 'insufficient_data'}, {'product_id': 168, 'reason': 'insufficient_data'}, {'product_id': 169, 'reason': 'insufficient_data'}, {'product_id': 170, 'reason': 'insufficient_data'}, {'product_id': 171, 'reason': 'insufficient_data'}, {'product_id': 172, 'reason': 'insufficient_data'}, {'product_id': 173, 'reason': 'insufficient_data'}, {'product_id': 174, 'reason': 'insufficient_data'}, {'product_id': 175, 'reason': 'insufficient_data'}, {'product_id': 176, 'reason': 'insufficient_data'}, {'product_id': 177, 'reason': 'insufficient_data'}, {'product_id': 178, 'reason': 'insufficient_data'}, {'product_id': 179, 'reason': 'insufficient_data'}, {'product_id': 180, 'reason': 'insufficient_data'}, {'product_id': 181, 'reason': 'insufficient_data'}, {'product_id': 182, 'reason': 'insufficient_data'}, {'product_id': 183, 'reason': 'insufficient_data'}, {'product_id': 184, 'reason': 'insufficient_data'}, {'product_id': 185, 'reason': 'insufficient_data'}, {'product_id': 186, 'reason': 'insufficient_data'}, {'product_id': 187, 'reason': 'insufficient_data'}, {'product_id': 188, 'reason': 'insufficient_data'}, {'product_id': 189, 'reason': 'insufficient_data'}, {'product_id': 190, 'reason': 'insufficient_data'}, {'product_id': 191, 'reason': 'insufficient_data'}, {'product_id': 192, 'reason': 'insufficient_data'}, {'product_id': 193, 'reason': 'insufficient_data'}, {'product_id': 194, 'reason': 'insufficient_data'}, {'product_id': 195, 'reason': 'insufficient_data'}, {'product_id': 196, 'reason': 'insufficient_data'}, {'product_id': 197, 'reason': 'insufficient_data'}, {'product_id': 198, 'reason': 'insufficient_data'}, {'product_id': 199, 'reason': 'insufficient_data'}, {'product_id': 200, 'reason': 'insufficient_data'}]}
+2025-12-10 03:15:59,136 INFO erpconnect Shutting down APScheduler
+2025-12-10 03:16:17,473 INFO erpconnect Starting APScheduler
+2025-12-10 03:16:43,311 INFO erpconnect Shutting down APScheduler
+2025-12-10 03:17:00,007 INFO erpconnect Starting APScheduler
+2025-12-10 03:25:49,962 INFO erpconnect Shutting down APScheduler
+2025-12-10 03:26:06,959 INFO erpconnect Starting APScheduler
+2025-12-10 03:39:58,368 INFO erpconnect Shutting down APScheduler
+2025-12-10 05:58:02,681 INFO erpconnect Starting APScheduler
+2025-12-10 05:58:02,688 INFO erpconnect Shutting down APScheduler
+2025-12-10 05:58:16,162 INFO erpconnect Starting APScheduler
+2025-12-10 06:02:50,417 INFO erpconnect Shutting down APScheduler
+2025-12-10 06:03:04,248 INFO erpconnect Starting APScheduler
+2025-12-11 15:48:51,325 INFO erpconnect Starting APScheduler
+2025-12-11 22:03:41,583 INFO erpconnect Shutting down APScheduler
+2025-12-11 22:04:05,263 INFO erpconnect Starting APScheduler
+2025-12-13 01:56:14,435 INFO erpconnect Starting APScheduler
+2025-12-13 03:00:00,030 INFO erpconnect Scheduler: starting train_all job
+2025-12-13 03:00:02,291 INFO erpconnect Scheduler: train_all completed: {'trained': [], 'failed': [{'product_id': 201, 'reason': 'insufficient_data'}, {'product_id': 202, 'reason': 'insufficient_data'}, {'product_id': 203, 'reason': 'insufficient_data'}, {'product_id': 204, 'reason': 'insufficient_data'}, {'product_id': 205, 'reason': 'insufficient_data'}, {'product_id': 206, 'reason': 'insufficient_data'}, {'product_id': 207, 'reason': 'insufficient_data'}, {'product_id': 208, 'reason': 'insufficient_data'}, {'product_id': 209, 'reason': 'insufficient_data'}, {'product_id': 210, 'reason': 'insufficient_data'}, {'product_id': 211, 'reason': 'insufficient_data'}, {'product_id': 212, 'reason': 'insufficient_data'}, {'product_id': 213, 'reason': 'insufficient_data'}, {'product_id': 214, 'reason': 'insufficient_data'}, {'product_id': 215, 'reason': 'insufficient_data'}, {'product_id': 216, 'reason': 'insufficient_data'}, {'product_id': 217, 'reason': 'insufficient_data'}, {'product_id': 218, 'reason': 'insufficient_data'}, {'product_id': 219, 'reason': 'insufficient_data'}, {'product_id': 220, 'reason': 'insufficient_data'}, {'product_id': 221, 'reason': 'insufficient_data'}, {'product_id': 222, 'reason': 'insufficient_data'}, {'product_id': 223, 'reason': 'insufficient_data'}, {'product_id': 224, 'reason': 'insufficient_data'}, {'product_id': 225, 'reason': 'insufficient_data'}, {'product_id': 226, 'reason': 'insufficient_data'}, {'product_id': 227, 'reason': 'insufficient_data'}, {'product_id': 228, 'reason': 'insufficient_data'}, {'product_id': 229, 'reason': 'insufficient_data'}, {'product_id': 230, 'reason': 'insufficient_data'}, {'product_id': 151, 'reason': 'insufficient_data'}, {'product_id': 152, 'reason': 'insufficient_data'}, {'product_id': 153, 'reason': 'insufficient_data'}, {'product_id': 154, 'reason': 'insufficient_data'}, {'product_id': 155, 'reason': 'insufficient_data'}, {'product_id': 156, 'reason': 'insufficient_data'}, {'product_id': 157, 'reason': 'insufficient_data'}, {'product_id': 158, 'reason': 'insufficient_data'}, {'product_id': 159, 'reason': 'insufficient_data'}, {'product_id': 160, 'reason': 'insufficient_data'}, {'product_id': 161, 'reason': 'insufficient_data'}, {'product_id': 162, 'reason': 'insufficient_data'}, {'product_id': 163, 'reason': 'insufficient_data'}, {'product_id': 164, 'reason': 'insufficient_data'}, {'product_id': 165, 'reason': 'insufficient_data'}, {'product_id': 166, 'reason': 'insufficient_data'}, {'product_id': 167, 'reason': 'insufficient_data'}, {'product_id': 168, 'reason': 'insufficient_data'}, {'product_id': 169, 'reason': 'insufficient_data'}, {'product_id': 170, 'reason': 'insufficient_data'}, {'product_id': 171, 'reason': 'insufficient_data'}, {'product_id': 172, 'reason': 'insufficient_data'}, {'product_id': 173, 'reason': 'insufficient_data'}, {'product_id': 174, 'reason': 'insufficient_data'}, {'product_id': 175, 'reason': 'insufficient_data'}, {'product_id': 176, 'reason': 'insufficient_data'}, {'product_id': 177, 'reason': 'insufficient_data'}, {'product_id': 178, 'reason': 'insufficient_data'}, {'product_id': 179, 'reason': 'insufficient_data'}, {'product_id': 180, 'reason': 'insufficient_data'}, {'product_id': 181, 'reason': 'insufficient_data'}, {'product_id': 182, 'reason': 'insufficient_data'}, {'product_id': 183, 'reason': 'insufficient_data'}, {'product_id': 184, 'reason': 'insufficient_data'}, {'product_id': 185, 'reason': 'insufficient_data'}, {'product_id': 186, 'reason': 'insufficient_data'}, {'product_id': 187, 'reason': 'insufficient_data'}, {'product_id': 188, 'reason': 'insufficient_data'}, {'product_id': 189, 'reason': 'insufficient_data'}, {'product_id': 190, 'reason': 'insufficient_data'}, {'product_id': 191, 'reason': 'insufficient_data'}, {'product_id': 192, 'reason': 'insufficient_data'}, {'product_id': 193, 'reason': 'insufficient_data'}, {'product_id': 194, 'reason': 'insufficient_data'}, {'product_id': 195, 'reason': 'insufficient_data'}, {'product_id': 196, 'reason': 'insufficient_data'}, {'product_id': 197, 'reason': 'insufficient_data'}, {'product_id': 198, 'reason': 'insufficient_data'}, {'product_id': 199, 'reason': 'insufficient_data'}, {'product_id': 200, 'reason': 'insufficient_data'}]}
+2025-12-13 03:01:05,729 INFO erpconnect Shutting down APScheduler
+2025-12-13 03:01:27,196 INFO erpconnect Starting APScheduler
+2025-12-13 03:06:07,611 INFO erpconnect Shutting down APScheduler
+2025-12-13 03:06:29,788 INFO erpconnect Starting APScheduler
+2025-12-13 03:16:09,081 INFO erpconnect Shutting down APScheduler
+2025-12-13 03:16:39,110 INFO erpconnect Starting APScheduler
+2025-12-13 03:18:46,321 INFO erpconnect Shutting down APScheduler
+2025-12-13 03:19:00,130 INFO erpconnect Starting APScheduler
+2025-12-13 03:19:00,134 INFO erpconnect Shutting down APScheduler
+2025-12-13 03:19:13,751 INFO erpconnect Starting APScheduler
+2025-12-13 03:29:00,732 INFO erpconnect Shutting down APScheduler
+2025-12-13 03:29:14,655 INFO erpconnect Starting APScheduler
+2025-12-13 04:10:14,599 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:10:28,930 INFO erpconnect Starting APScheduler
+2025-12-13 04:10:28,939 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:10:42,658 INFO erpconnect Starting APScheduler
+2025-12-13 04:11:00,427 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:11:15,035 INFO erpconnect Starting APScheduler
+2025-12-13 04:11:15,035 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:11:29,060 INFO erpconnect Starting APScheduler
+2025-12-13 04:11:29,063 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:11:43,424 INFO erpconnect Starting APScheduler
+2025-12-13 04:11:43,430 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:11:57,628 INFO erpconnect Starting APScheduler
+2025-12-13 04:11:57,631 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:12:11,675 INFO erpconnect Starting APScheduler
+2025-12-13 04:12:11,679 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:12:25,485 INFO erpconnect Starting APScheduler
+2025-12-13 04:12:25,489 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:18:30,486 INFO erpconnect Starting APScheduler
+2025-12-13 04:18:35,867 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:19:03,378 INFO erpconnect Starting APScheduler
+2025-12-13 04:19:49,128 ERROR erpconnect Replenishment recommendation failed for product 201
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:19:53,328 ERROR erpconnect Replenishment recommendation failed for product 202
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:19:57,534 ERROR erpconnect Replenishment recommendation failed for product 203
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:20:01,766 ERROR erpconnect Replenishment recommendation failed for product 204
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:20:05,979 ERROR erpconnect Replenishment recommendation failed for product 205
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:20:10,200 ERROR erpconnect Replenishment recommendation failed for product 206
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:20:14,439 ERROR erpconnect Replenishment recommendation failed for product 207
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:20:18,638 ERROR erpconnect Replenishment recommendation failed for product 208
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:20:22,818 ERROR erpconnect Replenishment recommendation failed for product 209
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 68, in recommend_replenishment
+    demand = estimate_monthly_demand(sales)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai\demand.py", line 8, in estimate_monthly_demand
+    date = datetime.fromisoformat(s["date"])
+                                  ~^^^^^^^^
+KeyError: 'date'
+2025-12-13 04:21:40,127 INFO erpconnect Starting APScheduler
+2025-12-13 04:34:12,423 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:36:01,149 INFO erpconnect Starting APScheduler
+2025-12-13 04:36:01,173 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:36:09,031 INFO erpconnect Starting APScheduler
+2025-12-13 04:36:42,426 INFO erpconnect Starting APScheduler
+2025-12-13 04:36:42,451 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:36:49,779 INFO erpconnect Starting APScheduler
+2025-12-13 04:36:59,657 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:37:04,868 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:37:06,525 INFO erpconnect Starting APScheduler
+2025-12-13 04:37:31,180 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:37:38,689 INFO erpconnect Starting APScheduler
+2025-12-13 04:40:56,005 ERROR erpconnect get_product_sales_lines failed
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\data_service.py", line 26, in get_product_sales_lines
+    lines = self.conn.search_read('sale.order.line', domain, ['product_uom_qty', 'create_date', 'order_id'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\odoo_connector.py", line 28, in search_read
+    res = self._models.execute_kw(self.db, self._uid, self.password, model, 'search_read', [domain], {'fields': fields, 'limit': limit})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xmlrpc\client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xmlrpc\client.py", line 1464, in __request
+    response = self.__transport.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xmlrpc\client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xmlrpc\client.py", line 1179, in single_request
+    resp = http_conn.getresponse()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1385, in getresponse
+    raise ResponseNotReady(self.__state)
+http.client.ResponseNotReady: Idle
+2025-12-13 04:44:04,997 INFO erpconnect Starting APScheduler
+2025-12-13 04:50:21,251 INFO erpconnect Shutting down APScheduler
+2025-12-13 04:50:29,279 INFO erpconnect Starting APScheduler
+2025-12-13 04:58:09,537 INFO erpconnect Starting APScheduler
+2025-12-13 05:09:10,033 INFO erpconnect Shutting down APScheduler
+2025-12-13 05:18:13,224 INFO erpconnect Starting APScheduler
+2025-12-13 05:21:29,681 INFO erpconnect Shutting down APScheduler
+2025-12-13 05:21:36,321 INFO erpconnect Starting APScheduler
+2025-12-13 05:27:11,898 INFO erpconnect Shutting down APScheduler
+2025-12-13 05:28:01,879 INFO erpconnect Starting APScheduler
+2025-12-13 05:35:24,300 INFO erpconnect Shutting down APScheduler
+2025-12-13 05:35:34,975 INFO erpconnect Starting APScheduler
+2025-12-13 05:50:45,489 INFO erpconnect Shutting down APScheduler
+2025-12-13 05:53:20,853 INFO erpconnect Starting APScheduler
+2025-12-13 05:53:44,326 INFO erpconnect Starting APScheduler
+2025-12-13 05:54:06,684 INFO erpconnect Shutting down APScheduler
+2025-12-13 05:54:16,543 INFO erpconnect Starting APScheduler
+2025-12-13 05:55:01,178 INFO erpconnect Shutting down APScheduler
+2025-12-13 05:56:07,401 INFO erpconnect Starting APScheduler
+2025-12-13 05:59:56,039 INFO erpconnect Shutting down APScheduler
+2025-12-13 06:00:08,992 INFO erpconnect Starting APScheduler
+2025-12-13 06:00:09,056 INFO erpconnect Shutting down APScheduler
+2025-12-13 06:00:26,292 INFO erpconnect Starting APScheduler
+2025-12-13 06:02:03,625 INFO erpconnect Shutting down APScheduler
+2025-12-13 06:02:56,049 INFO erpconnect Starting APScheduler
+2025-12-13 06:02:56,115 INFO erpconnect Shutting down APScheduler
+2025-12-13 06:03:06,855 INFO erpconnect Starting APScheduler
+2025-12-13 06:10:54,686 INFO erpconnect Starting APScheduler
+2025-12-13 20:54:21,754 INFO erpconnect Starting APScheduler
+2025-12-13 22:04:07,239 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:04:16,519 INFO erpconnect Starting APScheduler
+2025-12-13 22:07:37,145 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:07:45,569 INFO erpconnect Starting APScheduler
+2025-12-13 22:17:37,588 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:28:53,336 INFO erpconnect Starting APScheduler
+2025-12-13 22:28:53,377 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:29:01,776 INFO erpconnect Starting APScheduler
+2025-12-13 22:29:01,828 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:29:09,877 INFO erpconnect Starting APScheduler
+2025-12-13 22:30:16,196 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:30:25,341 INFO erpconnect Starting APScheduler
+2025-12-13 22:33:59,855 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:34:40,878 INFO erpconnect Starting APScheduler
+2025-12-13 22:39:36,469 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:39:44,871 INFO erpconnect Starting APScheduler
+2025-12-13 22:39:44,921 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:39:53,115 INFO erpconnect Starting APScheduler
+2025-12-13 22:41:33,240 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:41:42,006 INFO erpconnect Starting APScheduler
+2025-12-13 22:43:10,519 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:43:19,046 INFO erpconnect Starting APScheduler
+2025-12-13 22:47:12,874 INFO erpconnect Shutting down APScheduler
+2025-12-13 22:47:21,258 INFO erpconnect Starting APScheduler
+2025-12-13 23:19:39,371 INFO erpconnect Shutting down APScheduler
+2025-12-13 23:19:47,738 INFO erpconnect Starting APScheduler
+2025-12-13 23:35:20,627 INFO erpconnect Shutting down APScheduler
+2025-12-13 23:35:29,106 INFO erpconnect Starting APScheduler
+2025-12-13 23:37:10,899 INFO erpconnect Shutting down APScheduler
+2025-12-13 23:37:19,269 INFO erpconnect Starting APScheduler
+2025-12-13 23:40:37,973 INFO erpconnect Shutting down APScheduler
+2025-12-13 23:40:46,537 INFO erpconnect Starting APScheduler
+2025-12-13 23:40:46,568 INFO erpconnect Shutting down APScheduler
+2025-12-13 23:40:55,746 INFO erpconnect Starting APScheduler
+2025-12-13 23:40:55,785 INFO erpconnect Shutting down APScheduler
+2025-12-13 23:41:04,387 INFO erpconnect Starting APScheduler
+2025-12-13 23:50:57,495 INFO erpconnect Shutting down APScheduler
+2025-12-13 23:51:06,006 INFO erpconnect Starting APScheduler
+2025-12-13 23:51:16,850 INFO erpconnect Shutting down APScheduler
+2025-12-13 23:51:25,480 INFO erpconnect Starting APScheduler
+2025-12-14 00:36:55,492 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:37:03,730 INFO erpconnect Starting APScheduler
+2025-12-14 00:49:52,715 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:50:01,657 INFO erpconnect Starting APScheduler
+2025-12-14 00:50:01,697 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:50:10,009 INFO erpconnect Starting APScheduler
+2025-12-14 00:50:10,055 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:50:18,920 INFO erpconnect Starting APScheduler
+2025-12-14 00:51:37,881 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:51:46,085 INFO erpconnect Starting APScheduler
+2025-12-14 00:51:58,493 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:52:07,154 INFO erpconnect Starting APScheduler
+2025-12-14 00:52:07,195 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:52:16,609 INFO erpconnect Starting APScheduler
+2025-12-14 00:52:16,653 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:52:25,030 INFO erpconnect Starting APScheduler
+2025-12-14 00:52:25,088 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:52:33,285 INFO erpconnect Starting APScheduler
+2025-12-14 00:52:47,420 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:52:56,177 INFO erpconnect Starting APScheduler
+2025-12-14 00:55:04,569 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:55:13,009 INFO erpconnect Starting APScheduler
+2025-12-14 00:57:31,328 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:57:39,875 INFO erpconnect Starting APScheduler
+2025-12-14 00:57:39,921 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:57:48,423 INFO erpconnect Starting APScheduler
+2025-12-14 00:57:57,394 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:58:06,007 INFO erpconnect Starting APScheduler
+2025-12-14 00:58:06,041 INFO erpconnect Shutting down APScheduler
+2025-12-14 00:58:14,329 INFO erpconnect Starting APScheduler
+2025-12-14 01:00:27,326 INFO erpconnect Shutting down APScheduler
+2025-12-14 01:00:35,877 INFO erpconnect Starting APScheduler
+2025-12-14 01:02:24,074 INFO erpconnect Shutting down APScheduler
+2025-12-14 01:02:32,387 INFO erpconnect Starting APScheduler
+2025-12-14 01:02:32,419 INFO erpconnect Shutting down APScheduler
+2025-12-14 01:02:41,264 INFO erpconnect Starting APScheduler
+2025-12-14 01:02:41,311 INFO erpconnect Shutting down APScheduler
+2025-12-14 01:02:49,908 INFO erpconnect Starting APScheduler
+2025-12-14 01:02:49,962 INFO erpconnect Shutting down APScheduler
+2025-12-14 01:02:58,530 INFO erpconnect Starting APScheduler
+2025-12-14 01:02:58,597 INFO erpconnect Shutting down APScheduler
+2025-12-14 01:03:06,981 INFO erpconnect Starting APScheduler
+2025-12-14 01:05:32,146 INFO erpconnect Shutting down APScheduler
+2025-12-14 01:05:40,531 INFO erpconnect Starting APScheduler
+2025-12-14 15:23:55,541 INFO erpconnect Starting APScheduler
+2025-12-14 16:37:14,199 INFO erpconnect Shutting down APScheduler
+2025-12-14 17:03:28,973 INFO erpconnect Starting APScheduler
+2025-12-14 17:03:38,974 INFO erpconnect Shutting down APScheduler
+2025-12-14 17:03:57,481 INFO erpconnect Starting APScheduler
+2025-12-14 17:04:01,407 INFO erpconnect Shutting down APScheduler
+2025-12-14 17:12:39,549 INFO erpconnect Starting APScheduler
+2025-12-14 17:14:12,582 INFO erpconnect Shutting down APScheduler
+2025-12-15 02:58:24,984 INFO erpconnect Starting APScheduler
+2025-12-15 03:00:00,002 INFO erpconnect Scheduler: starting train_all job
+2025-12-15 03:00:02,388 ERROR erpconnect Training failed for product 201
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,395 ERROR erpconnect Training failed for product 202
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,397 ERROR erpconnect Training failed for product 203
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,400 ERROR erpconnect Training failed for product 204
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,401 ERROR erpconnect Training failed for product 205
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,402 ERROR erpconnect Training failed for product 206
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,404 ERROR erpconnect Training failed for product 207
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,407 ERROR erpconnect Training failed for product 208
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,411 ERROR erpconnect Training failed for product 209
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,415 ERROR erpconnect Training failed for product 210
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,419 ERROR erpconnect Training failed for product 211
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,419 ERROR erpconnect Training failed for product 212
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,423 ERROR erpconnect Training failed for product 213
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,426 ERROR erpconnect Training failed for product 214
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,429 ERROR erpconnect Training failed for product 215
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,431 ERROR erpconnect Training failed for product 216
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,433 ERROR erpconnect Training failed for product 217
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,436 ERROR erpconnect Training failed for product 218
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,438 ERROR erpconnect Training failed for product 219
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,443 ERROR erpconnect Training failed for product 220
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,447 ERROR erpconnect Training failed for product 221
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,451 ERROR erpconnect Training failed for product 222
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,453 ERROR erpconnect Training failed for product 223
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,456 ERROR erpconnect Training failed for product 224
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,460 ERROR erpconnect Training failed for product 225
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,462 ERROR erpconnect Training failed for product 226
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,469 ERROR erpconnect Training failed for product 227
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,473 ERROR erpconnect Training failed for product 228
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,474 ERROR erpconnect Training failed for product 229
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,479 ERROR erpconnect Training failed for product 230
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,481 ERROR erpconnect Training failed for product 151
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,485 ERROR erpconnect Training failed for product 152
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,491 ERROR erpconnect Training failed for product 153
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,495 ERROR erpconnect Training failed for product 154
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,498 ERROR erpconnect Training failed for product 155
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,502 ERROR erpconnect Training failed for product 156
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,508 ERROR erpconnect Training failed for product 157
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,512 ERROR erpconnect Training failed for product 158
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,514 ERROR erpconnect Training failed for product 159
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,518 ERROR erpconnect Training failed for product 160
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,521 ERROR erpconnect Training failed for product 161
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,521 ERROR erpconnect Training failed for product 162
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,526 ERROR erpconnect Training failed for product 163
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,528 ERROR erpconnect Training failed for product 164
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,532 ERROR erpconnect Training failed for product 165
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,545 ERROR erpconnect Training failed for product 166
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,545 ERROR erpconnect Training failed for product 167
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,551 ERROR erpconnect Training failed for product 168
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,555 ERROR erpconnect Training failed for product 169
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,559 ERROR erpconnect Training failed for product 170
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,559 ERROR erpconnect Training failed for product 171
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,561 ERROR erpconnect Training failed for product 172
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,563 ERROR erpconnect Training failed for product 173
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,566 ERROR erpconnect Training failed for product 174
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,570 ERROR erpconnect Training failed for product 175
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,574 ERROR erpconnect Training failed for product 176
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,576 ERROR erpconnect Training failed for product 177
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,576 ERROR erpconnect Training failed for product 178
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,583 ERROR erpconnect Training failed for product 179
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,585 ERROR erpconnect Training failed for product 180
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,585 ERROR erpconnect Training failed for product 181
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,590 ERROR erpconnect Training failed for product 182
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,591 ERROR erpconnect Training failed for product 183
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,594 ERROR erpconnect Training failed for product 184
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,594 ERROR erpconnect Training failed for product 185
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,599 ERROR erpconnect Training failed for product 186
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,602 ERROR erpconnect Training failed for product 187
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,604 ERROR erpconnect Training failed for product 188
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,606 ERROR erpconnect Training failed for product 189
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,609 ERROR erpconnect Training failed for product 190
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,609 ERROR erpconnect Training failed for product 191
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,612 ERROR erpconnect Training failed for product 192
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,616 ERROR erpconnect Training failed for product 193
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,620 ERROR erpconnect Training failed for product 194
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,621 ERROR erpconnect Training failed for product 195
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,624 ERROR erpconnect Training failed for product 196
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,626 ERROR erpconnect Training failed for product 197
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,629 ERROR erpconnect Training failed for product 198
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,634 ERROR erpconnect Training failed for product 199
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,636 ERROR erpconnect Training failed for product 200
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-15 03:00:02,640 INFO erpconnect Scheduler: train_all completed: {'trained_count': 0, 'total': 80}
+2025-12-15 03:00:28,522 INFO erpconnect Shutting down APScheduler
+2025-12-15 03:00:36,184 INFO erpconnect Starting APScheduler
+2025-12-15 03:03:53,605 INFO erpconnect Shutting down APScheduler
+2025-12-15 03:04:01,543 INFO erpconnect Starting APScheduler
+2025-12-15 03:04:01,586 INFO erpconnect Shutting down APScheduler
+2025-12-15 03:04:08,691 INFO erpconnect Starting APScheduler
+2025-12-15 15:54:57,677 INFO erpconnect Starting APScheduler
+2025-12-15 15:58:03,358 INFO erpconnect Shutting down APScheduler
+2025-12-15 15:58:12,361 INFO erpconnect Starting APScheduler
+2025-12-16 15:57:42,909 INFO erpconnect Starting APScheduler
+2025-12-17 12:14:39,163 INFO erpconnect Starting APScheduler
+2025-12-23 02:25:28,897 INFO erpconnect Starting APScheduler
+2025-12-23 03:00:00,016 INFO erpconnect Scheduler: starting train_all job
+2025-12-23 03:00:02,233 ERROR erpconnect Training failed for product 201
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,238 ERROR erpconnect Training failed for product 202
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,240 ERROR erpconnect Training failed for product 203
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,241 ERROR erpconnect Training failed for product 204
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,244 ERROR erpconnect Training failed for product 205
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,247 ERROR erpconnect Training failed for product 206
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,249 ERROR erpconnect Training failed for product 207
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,251 ERROR erpconnect Training failed for product 208
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,252 ERROR erpconnect Training failed for product 209
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,254 ERROR erpconnect Training failed for product 210
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,256 ERROR erpconnect Training failed for product 211
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,257 ERROR erpconnect Training failed for product 212
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,260 ERROR erpconnect Training failed for product 213
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,262 ERROR erpconnect Training failed for product 214
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,263 ERROR erpconnect Training failed for product 215
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,266 ERROR erpconnect Training failed for product 216
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,268 ERROR erpconnect Training failed for product 217
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,270 ERROR erpconnect Training failed for product 218
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,272 ERROR erpconnect Training failed for product 219
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,273 ERROR erpconnect Training failed for product 220
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,275 ERROR erpconnect Training failed for product 221
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,278 ERROR erpconnect Training failed for product 222
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,280 ERROR erpconnect Training failed for product 223
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,283 ERROR erpconnect Training failed for product 224
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,285 ERROR erpconnect Training failed for product 225
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,287 ERROR erpconnect Training failed for product 226
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,290 ERROR erpconnect Training failed for product 227
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,291 ERROR erpconnect Training failed for product 228
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,293 ERROR erpconnect Training failed for product 229
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,295 ERROR erpconnect Training failed for product 230
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,297 ERROR erpconnect Training failed for product 151
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,299 ERROR erpconnect Training failed for product 152
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,300 ERROR erpconnect Training failed for product 153
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,302 ERROR erpconnect Training failed for product 154
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,303 ERROR erpconnect Training failed for product 155
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,306 ERROR erpconnect Training failed for product 156
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,308 ERROR erpconnect Training failed for product 157
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,308 ERROR erpconnect Training failed for product 158
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,312 ERROR erpconnect Training failed for product 159
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,314 ERROR erpconnect Training failed for product 160
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,315 ERROR erpconnect Training failed for product 161
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,317 ERROR erpconnect Training failed for product 162
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,318 ERROR erpconnect Training failed for product 163
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,321 ERROR erpconnect Training failed for product 164
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,324 ERROR erpconnect Training failed for product 165
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,327 ERROR erpconnect Training failed for product 166
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,330 ERROR erpconnect Training failed for product 167
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,331 ERROR erpconnect Training failed for product 168
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,332 ERROR erpconnect Training failed for product 169
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,333 ERROR erpconnect Training failed for product 170
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,335 ERROR erpconnect Training failed for product 171
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,337 ERROR erpconnect Training failed for product 172
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,339 ERROR erpconnect Training failed for product 173
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,340 ERROR erpconnect Training failed for product 174
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,342 ERROR erpconnect Training failed for product 175
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,345 ERROR erpconnect Training failed for product 176
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,346 ERROR erpconnect Training failed for product 177
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,348 ERROR erpconnect Training failed for product 178
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,350 ERROR erpconnect Training failed for product 179
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,351 ERROR erpconnect Training failed for product 180
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,355 ERROR erpconnect Training failed for product 181
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,357 ERROR erpconnect Training failed for product 182
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,358 ERROR erpconnect Training failed for product 183
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,360 ERROR erpconnect Training failed for product 184
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,362 ERROR erpconnect Training failed for product 185
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,364 ERROR erpconnect Training failed for product 186
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,366 ERROR erpconnect Training failed for product 187
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,368 ERROR erpconnect Training failed for product 188
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,371 ERROR erpconnect Training failed for product 189
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,373 ERROR erpconnect Training failed for product 190
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,374 ERROR erpconnect Training failed for product 191
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,376 ERROR erpconnect Training failed for product 192
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,378 ERROR erpconnect Training failed for product 193
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,380 ERROR erpconnect Training failed for product 194
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,382 ERROR erpconnect Training failed for product 195
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,385 ERROR erpconnect Training failed for product 196
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,387 ERROR erpconnect Training failed for product 197
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,388 ERROR erpconnect Training failed for product 198
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,389 ERROR erpconnect Training failed for product 199
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,391 ERROR erpconnect Training failed for product 200
+Traceback (most recent call last):
+  File "C:\Users\Yoga Slim 7\Desktop\erpconnect-backend\app\services\ai_service.py", line 205, in train_product_model
+    sales_series = self.data_svc.get_sales_series(product_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataService' object has no attribute 'get_sales_series'
+2025-12-23 03:00:02,394 INFO erpconnect Scheduler: train_all completed: {'trained_count': 0, 'total': 80}
+2025-12-23 03:30:00,013 INFO erpconnect Scheduler: training ML models for top products
+2025-12-23 03:35:10,533 INFO erpconnect Scheduler: ML training done for 50 products
+2025-12-23 16:02:39,632 INFO erpconnect Starting APScheduler
+2025-12-27 06:19:23,887 INFO erpconnect Starting APScheduler

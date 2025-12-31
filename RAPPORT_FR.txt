@@ -1,0 +1,207 @@
+\documentclass[12pt,a4paper]{report}
+
+% ===============================
+% PACKAGES REQUIS
+% ===============================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{listings}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+% ===============================
+% CONFIGURATION EN-TÊTE & PIED DE PAGE
+% ===============================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\fancyfoot[L]{\small ERPConnect - PFA 2025/2026}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% ===============================
+% FORMAT DES TITRES DE CHAPITRES
+% ===============================
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}
+{\chaptertitlename\ \thechapter}
+{20pt}
+{\Huge}
+\titlespacing*{\chapter}{0pt}{-10pt}{40pt}
+
+% ===============================
+% MÉTADONNÉES DU DOCUMENT
+% ===============================
+\title{ERPConnect -- Module Intelligent d'Aide à la Décision Intégré à l'ERP}
+\author{Ismail Moustatraf \& Ibrahim Hanna}
+\date{Année Académique : 2025/2026}
+
+% ===============================
+% CONFIGURATION HYPERREF (EN DERNIER)
+% ===============================
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    pdftitle={Rapport PFA - ERPConnect},
+    pdfauthor={Ismail Moustatraf \& Ibrahim Hanna}
+}
+
+\begin{document}
+
+% ========================================
+% PAGE DE GARDE
+% ========================================
+\begin{titlepage}
+    \begin{center}
+
+        % LOGO EMSI
+        \includegraphics[width=12cm]{emsi_logo.png}\\
+        \vspace{1.5cm}
+
+        % TYPE DE RAPPORT
+        {\LARGE\textbf{RAPPORT DE PROJET DE FIN D'ANNÉE}}\\
+        \vspace{1.2cm}
+
+        % CONTEXTE OPTIONNEL
+        \textit{\Huge Projet ERPConnect}\\
+        \vspace{0.5cm}
+
+        % BLOC TITRE AVEC DOUBLE LIGNE
+        \rule{15cm}{0.5mm}\\
+        \vspace{0.3cm}
+        \begin{minipage}{0.95\textwidth}
+            \centering\LARGE
+            Module Intelligent d'Aide à la Décision Intégré à l'ERP
+        \end{minipage}\\
+        \vspace{0.3cm}
+        \rule{15cm}{0.5mm}\\
+
+        \vspace{0.8cm}
+
+        % INFORMATIONS SUR LE PROGRAMME
+        \textbf{\large Filière : }{\large Ingénierie Informatique et Réseaux}\\
+        
+
+        \vspace{1cm}
+
+        % AUTEURS
+        \textbf{\large Réalisé par :}\\
+        {\large Ismail Moustatraf \& Ibrahim Hanna}\\
+
+        \vspace{1cm}
+
+        % ENCADRANTS
+        \textbf{\large Encadrant Académique :}\\
+        {\large Abderrahim Larhlimi}\\
+
+        \vspace{1cm}
+
+        % ANNÉE ACADÉMIQUE
+        \textbf{Année Académique : 2025/2026}
+
+    \end{center}
+\end{titlepage}
+
+
+% ========================================
+% PAGES PRÉLIMINAIRES
+% ========================================
+\pagenumbering{roman}
+
+% ========================================
+% REMERCIEMENTS
+% ========================================
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+
+Nous tenons à exprimer notre profonde gratitude à notre encadrant académique, \textbf{Abderrahim Larhlimi}, pour ses précieux conseils, son soutien et ses retours constructifs tout au long de la réalisation de ce projet. Son expertise et ses encouragements ont été déterminants dans notre développement professionnel et technique.
+
+Nous remercions également le personnel de l'\textbf{EMSI} pour nous avoir fourni l'environnement académique et les outils nécessaires au développement de nos compétences.
+
+Enfin, nous sommes reconnaissants envers nos familles et collègues pour leur soutien constant et leur compréhension durant les phases rigoureuses de ce Projet de Fin d'Année.
+
+\newpage
+
+% ========================================
+% RÉSUMÉ & ABSTRACT
+% ========================================
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+
+Le projet \textbf{ERPConnect} vise à transformer les données opérationnelles des systèmes ERP (Enterprise Resource Planning) en actifs stratégiques grâce à l'intelligence artificielle. Ce rapport documente le développement d'un module d'aide à la décision conçu pour s'intégrer aux ERP open source tels qu'Odoo. La solution s'appuie sur une architecture de micro-services basée sur \textbf{FastAPI} pour fournir des fonctionnalités avancées d'analytique prédictive.
+
+Les principales contributions incluent un système de prévision de la demande basé sur l'apprentissage automatique (Régression Polynomiale), un mécanisme de détection d'anomalies par score-Z, et un moteur de recommandation de réapprovisionnement optimisé par des algorithmes de gestion de stock (ROP). Une interface utilisateur en \textbf{React} permet aux décideurs de visualiser plus de 30 indicateurs de performance (KPI) et de personnaliser leurs tableaux de bord. Les résultats démontrent l'efficacité de l'approche pour réduire les ruptures de stock et valoriser le patrimoine informationnel de l'entreprise.
+
+\textbf{Mots-clés :} ERP, Intelligence Artificielle, Prévision de la demande, Apprentissage automatique, FastAPI, Aide à la décision.
+
+\newpage
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+Le projet \textbf{ERPConnect} vise à transformer les données opérationnelles des systèmes ERP (Enterprise Resource Planning) en actifs stratégiques grâce à l'Intelligence Artificielle. Ce rapport documente le développement d'un module d'aide à la décision conçu pour s'intégrer avec des ERP open source tels qu'Odoo. La solution repose sur une architecture de microservices basée sur \textbf{FastAPI} pour fournir des fonctionnalités avancées d'analytique prédictive.
+
+Les contributions clés incluent un système de prévision de la demande basé sur l'apprentissage automatique (Régression Polynomiale), un mécanisme de détection d'anomalies par score-Z, et un moteur de recommandation de réapprovisionnement optimisé par des algorithmes de gestion des stocks (ROP). Une interface utilisateur \textbf{React} permet aux décideurs de visualiser plus de 30 indicateurs de performance clés (KPI) et de personnaliser leurs tableaux de bord. Les résultats démontrent l'efficacité de l'approche pour réduire les ruptures de stock et maximiser la valeur des actifs informationnels de l'entreprise.
+
+\textbf{Mots-clés :} ERP, Intelligence Artificielle, Prévision de la demande, Apprentissage automatique, FastAPI, Aide à la décision.
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+% ========================================
+% CONTENU PRINCIPAL
+% ========================================
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ========================================
+% INTRODUCTION GÉNÉRALE
+% ========================================
+\chapter*{Introduction Générale}
+\addcontentsline{toc}{chapter}{Introduction Générale}
+\markboth{Introduction Générale}{Introduction Générale}
+
+% (Votre texte d'introduction reste inchangé)
+
+\newpage
+
+% ========================================
+% CHAPITRE 1
+% ========================================
+\chapter{Présentation du Cadre du Projet}
+
+\section*{Objectifs du Chapitre}
+\addcontentsline{toc}{section}{Objectifs du Chapitre}
+
+% (Texte inchangé)
+
+\section{Analyse du Système Existant}
+
+\subsection{Description des Solutions Existantes}
+\begin{itemize}
+    \item Rapports de ventes agrégés par période, produit ou client ;
+    \item État des stocks avec seuils d'alerte configurables manuellement ;
+    \item Graphiques de suivi des performances commerciales ;
+    \item Exports de données en format CSV ou Excel pour analyse externe ;
+    \item Indicateurs de performance prédéfinis (chiffre d'affaires, marge, rotation des stocks).
+\end{itemize}

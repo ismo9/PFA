@@ -1,0 +1,448 @@
+@startuml authentication_sequence
+title User Authentication Sequence Diagram (JWT OAuth2 Flow)
+
+actor User
+participant ":AuthRouter\n«FastAPI»" as Router
+participant ":AuthService\n«Service»" as AuthService
+participant ":JWTModule\n«python-jose»" as JWT
+database ":MockUsers\n«Dictionary»" as DB
+
+User -> Router: 1: POST /auth/login\n{username, password}
+activate Router
+
+Router -> AuthService: 2: authenticate_user(username, password)
+activate AuthService
+
+AuthService -> DB: 3: lookup user by username
+activate DB
+DB --> AuthService: 4: user record or None
+deactivate DB
+
+AuthService -> AuthService: 5: verify_password(plain, hashed)
+
+alt Valid Credentials
+    AuthService --> Router: 6: User object
+    deactivate AuthService
+    
+    Router -> JWT: 7: create_access_token({sub: username})
+    activate JWT
+    
+    JWT -> JWT: 8: encode with HS256,\nadd expiration (8h)
+    
+    JWT --> Router: 9: access_token string
+    deactivate JWT
+    
+    Router --> User: 10: {access_token,\ntoken_type: "bearer"}
+    deactivate Router
+    
+else Invalid Credentials
+    AuthService --> Router: False
+    deactivate AuthService
+    Router --> User: HTTP 401\n"Incorrect username or password"
+    deactivate Router
+end
+
+@enduml
+
+@startuml ml_forecast_sequence
+title ML Forecast Generation Sequence Diagram
+
+actor "Business\nManager" as Manager
+participant ":AIRouter\n«FastAPI»" as Router
+participant ":CacheService" as Cache
+participant ":MLForecastService" as MLService
+participant ":FileSystem" as FS
+participant ":sklearn.Pipeline" as sklearn
+participant ":OdooERP\n«External»" as Odoo
+
+Manager -> Router: 1: GET /ai/forecast/101?horizon_days=30
+activate Router
+
+Router -> Cache: 2: get("ai:forecast:101:30:180")
+activate Cache
+
+alt Cache Hit
+    Cache --> Router: 3a: cached forecast data
+    deactivate Cache
+    Router --> Manager: 3b: JSON response
+    deactivate Router
+else Cache Miss
+    Cache --> Router: 3: None
+    deactivate Cache
+    
+    Router -> MLService: 4: forecast_with_model(101, 30, 180)
+    activate MLService
+    
+    MLService -> FS: 5: load("models/forecasts/\nproduct_101.joblib")
+    activate FS
+    
+    opt Model Exists
+        FS --> MLService: 6a: sklearn pipeline object
+        deactivate FS
+        
+        MLService -> Odoo: 6b: fetch sales lines\n(last 180 days)
+        activate Odoo
+        Odoo --> MLService: 6c: sales data array
+        deactivate Odoo
+        
+        MLService -> MLService: 6d: build_daily_series(),\nmoving_average(window=7)
+        
+        MLService -> sklearn: 6e: predict(X_future[30 days])
+        activate sklearn
+        sklearn --> MLService: 6f: y_forecast[30 values]
+        deactivate sklearn
+        
+        MLService -> MLService: 6g: calculate confidence\nintervals (±1.96σ)
+    else Model Missing
+        MLService -> MLService: 7: baseline_forecast()\n[moving avg + drift]
+    end
+    
+    MLService --> Router: 8: {daily_forecast[],\ntotals, confidence_interval}
+    deactivate MLService
+    
+    Router -> Cache: 9: set(key, result, ttl=120s)
+    activate Cache
+    deactivate Cache
+    
+    Router --> Manager: 10: JSON forecast response
+    deactivate Router
+end
+
+@enduml
+
+@startuml ml_training_activity
+title Nightly ML Training Job Activity Diagram
+
+start
+:Triggered at midnight\n(APScheduler cron);
+
+:Fetch all products from Odoo;
+
+:Calculate sales volume\nfor each product (90 days);
+
+:Sort products by\nvolume descending;
+
+:Select top 50 products;
+
+while (More products\nin list?) is (YES)
+  :Get next product from list;
+  
+  :Fetch product sales\nhistory (180 days);
+  
+  if (History ≥ 14 days?) then (YES)
+    :Build daily series +\napply 7-day moving average;
+    
+    :Create PolynomialFeatures\ntransformation (degree=2);
+    
+    :Train LinearRegression\nmodel on smoothed data;
+    
+    :Calculate metrics:\nMAE, sMAPE, MAPE;
+    
+    :Serialize model with joblib to\nmodels/forecasts/product_{id}.joblib;
+    
+    :Log training result\n(product_id, trained: true, metrics);
+  else (NO)
+    :Skip product\n(insufficient history);
+  endif
+endwhile (NO)
+
+:Log completion with\ntotal models trained;
+
+stop
+
+@enduml
+
+@startuml class_diagram
+title ERPConnect Core Class Structure
+
+package "app.routers «API Layer»" #FFFACD {
+  class AIRouter {
+    + forecast(product_id, horizon, lookback)
+    + demand(lookback_days, limit)
+    + replenishment_with_rop(lead_time, safety)
+    + segmentation(days)
+    + anomalies(days, z_threshold)
+  }
+  
+  class AuthRouter {
+    + login(credentials)
+    + me(token)
+  }
+  
+  class DashboardRouter {
+    + overview()
+    + sales_trends(period, days)
+    + top_products(metric, days, limit)
+    + stock_status()
+  }
+  
+  class KPIRouter {
+    + metrics(days)
+    + specific_metric(name, days)
+    + comparison(product_ids, metrics)
+    + catalog()
+  }
+}
+
+package "app.services «Business Logic»" #E6F3FF {
+  class OdooConnector {
+    - url: str
+    - db: str
+    - uid: int
+    - models: ServerProxy
+    + authenticate(): int
+    + search_read(model, domain, fields, limit): List
+  }
+  
+  class CacheService {
+    - _cache: Dict[str, Tuple[Any, float]]
+    + get(key): Optional[Any]
+    + set(key, value, ttl_seconds)
+    + clear()
+  }
+  
+  class DemandPredictor {
+    + predict_demand(products, lookback_days): List[Dict]
+    - _moving_average(series, window): List[float]
+    - _trend_strength(series): float
+  }
+  
+  class MLForecastService {
+    + train_product_model(product_id, lookback): Dict
+    + forecast_with_model(product_id, horizon, lookback): Dict
+    - _daily_series(lines, days): List[float]
+  }
+  
+  class SegmentationService {
+    + segment_abc_xyz(days): Dict
+    - _classify_abc(revenue_list): List[str]
+    - _classify_xyz(variability_list): List[str]
+  }
+  
+  class AnomalyDetector {
+    + detect_sales_anomalies(days, z_threshold): Dict
+    - _calculate_z_score(value, mean, std): float
+  }
+  
+  class AuthService {
+    + authenticate_user(username, password): Union[User, bool]
+    + create_access_token(data, expires_delta): str
+    + get_current_user(token): User
+  }
+}
+
+package "app.auth «Data Models»" {
+  class User <<dataclass>> {
+    + username: str
+    + email: str
+    + full_name: str
+    + role: str
+    + disabled: bool
+  }
+  
+  class Token <<dataclass>> {
+    + access_token: str
+    + token_type: str
+  }
+}
+
+package "sklearn «External»" #D4EDDA {
+  class Pipeline <<external>> {
+    - steps: List
+    + fit(X, y)
+    + predict(X)
+  }
+}
+
+' Relationships
+AIRouter ..> DemandPredictor : «uses»
+AIRouter ..> MLForecastService : «uses»
+AIRouter ..> SegmentationService : «uses»
+AIRouter ..> AnomalyDetector : «uses»
+AIRouter ..> CacheService : «uses»
+
+AuthRouter ..> AuthService : «uses»
+
+DemandPredictor ..> OdooConnector : «depends on»
+MLForecastService ..> OdooConnector : «depends on»
+SegmentationService ..> OdooConnector : «depends on»
+AnomalyDetector ..> OdooConnector : «depends on»
+
+MLForecastService ..> Pipeline : «uses»
+
+AuthService --> User : «creates»
+AuthService --> Token : «creates»
+
+@enduml
+
+@startuml component_diagram
+title ERPConnect Component Architecture
+
+package "Presentation Layer" {
+  component [React Frontend] <<React>> as Frontend
+}
+
+package "API Layer (FastAPI)" {
+  component [AuthRouter] <<router>>
+  component [AIRouter] <<router>>
+  component [DashboardRouter] <<router>>
+  component [KPIRouter] <<router>>
+  component [HealthRouter] <<router>>
+}
+
+package "Business Logic Layer" {
+  component [AI Services] <<service>> {
+    component [DemandPredictor]
+    component [MLForecast]
+    component [Segmentation]
+    component [AnomalyDetector]
+  }
+  component [CacheService] <<service>>
+  component [AuthService] <<service>>
+  component [APScheduler] <<scheduler>>
+}
+
+package "Integration Layer" {
+  component [OdooConnector] <<connector>>
+}
+
+package "ML Layer" {
+  component [scikit-learn] <<library>>
+  component [joblib] <<library>>
+}
+
+package "External Systems" {
+  component [Odoo ERP] <<external>>
+}
+
+package "Storage" {
+  component [File System] <<storage>>
+}
+
+' Interfaces
+() "Web UI" as WebUI
+() "REST API" as RestAPI
+() "/auth" as AuthAPI
+() "/ai" as AIAPI
+() "/dashboard" as DashAPI
+() "/kpi" as KPIAPI
+() "/health" as HealthAPI
+() "TTL Cache" as CacheAPI
+() "JWT Auth" as JWTAuth
+() "Background Jobs" as BgJobs
+() "search_read()" as SearchRead
+() "XML-RPC" as XMLRPC
+() "ML Algorithms" as MLAlgo
+() "Persistence" as Persist
+() "XML-RPC API" as OdooAPI
+() "Model Storage" as Storage
+
+' Connections - Presentation to API
+Frontend --> WebUI
+WebUI -- RestAPI
+RestAPI -- AuthRouter
+RestAPI -- AIRouter
+RestAPI -- DashboardRouter
+RestAPI -- KPIRouter
+RestAPI -- HealthRouter
+
+' API to Services
+AuthRouter ..> AuthAPI
+AuthAPI ..> AuthService
+
+AIRouter ..> AIAPI
+AIAPI ..> [AI Services]
+
+DashboardRouter ..> DashAPI
+DashAPI ..> [AI Services]
+
+KPIRouter ..> KPIAPI
+KPIAPI ..> [AI Services]
+
+HealthRouter ..> HealthAPI
+
+' Services to Cache
+[AI Services] ..> CacheAPI
+CacheAPI -- CacheService
+
+' Services to Auth
+AuthRouter ..> JWTAuth
+JWTAuth -- AuthService
+
+' Scheduler
+APScheduler --> BgJobs
+BgJobs ..> [AI Services]
+
+' Services to Connector
+[AI Services] ..> SearchRead
+SearchRead -- OdooConnector
+
+' Connector to Odoo
+OdooConnector ..> XMLRPC
+XMLRPC -- OdooAPI
+OdooAPI -- [Odoo ERP]
+
+' ML Services
+MLForecast ..> MLAlgo
+MLAlgo -- [scikit-learn]
+
+MLForecast ..> Persist
+Persist -- [joblib]
+
+' File System
+[AI Services] ..> Storage
+Storage -- [File System]
+
+@enduml
+
+@startuml deployment_diagram
+title ERPConnect Deployment Architecture
+
+node "Client Browser" <<device>> {
+  artifact "React Application\n(index.html, JS bundle)" as ReactApp
+}
+
+node "Application Server" <<execution environment>> {
+  artifact "FastAPI Application\n(app/main.py)" as FastAPI
+  artifact "Uvicorn ASGI Server" as Uvicorn
+  artifact "AI Service Modules" as AIModules
+  artifact "APScheduler Daemon" as Scheduler
+  
+  note right of FastAPI
+    Python 3.8+ Runtime
+    Port: 8000
+  end note
+}
+
+node "Odoo ERP Server" <<server>> {
+  artifact "Odoo Application" as OdooApp
+  artifact "XML-RPC Server\n(/xmlrpc/2/)" as XMLRPC
+  artifact "PostgreSQL Database" as PostgreSQL
+  
+  note right of OdooApp
+    Python + PostgreSQL
+    Port: 8069
+  end note
+}
+
+node "File Storage" <<storage>> {
+  artifact "ML Models\n(*.joblib files)" as Models
+  artifact "Log Files" as Logs
+}
+
+' Connections
+ReactApp ..> FastAPI : «HTTPS»\nPort 8000
+FastAPI ..> XMLRPC : «XML-RPC»\nPort 8069
+FastAPI ..> Models : «File I/O»
+Scheduler ..> Models : «File I/O»
+
+' Internal dependencies within Application Server
+FastAPI -- Uvicorn
+FastAPI -- AIModules
+FastAPI -- Scheduler
+
+' Internal dependencies within Odoo Server
+OdooApp -- XMLRPC
+OdooApp -- PostgreSQL
+
+@enduml
