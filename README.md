@@ -2,7 +2,7 @@
 
 **A FastAPI-based intelligent decision support system that integrates with Odoo ERP to provide AI-powered analytics, demand forecasting, inventory optimization, and business intelligence.**
 
-**Academic Year:** 2024/2025  
+**Academic Year:** 2025/2026  
 **Institution:** EMSI - École Marocaine des Sciences de l'Ingénieur  
 **Program:** 5th Year Engineering - Computer Science and Networks  
 **Project Type:** Final Year Project (PFA - Projet de Fin d'Année)
